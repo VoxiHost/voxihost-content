@@ -48,7 +48,7 @@ faq:
 
 Owning a VPS server is great, but transferring files to it via the terminal (SFTP) can be cumbersome. How about turning your cheap server into a convenient cloud drive (like Google Drive or Dropbox) that you can operate 100% from your web browser?
 
-Enter **FileBrowser** – an incredibly lightweight file manager. It works blazingly fast, doesn't require a domain name (you can just use your IP address), and uses so few resources that it runs perfectly on even the cheapest [Budget VPS](/budget-vps/) from our lineup!
+Enter **FileBrowser** - an incredibly lightweight file manager. It works blazingly fast, doesn't require a domain name (you can just use your IP address), and uses so few resources that it runs perfectly on even the cheapest [Budget VPS](/vps/budget/) from our lineup!
 
 ---
 
@@ -111,4 +111,4 @@ By selecting any file, you can click the Share icon to generate a special link. 
 
 ## Conclusion
 
-FileBrowser is a "must-have" for any private server. It uses a fraction of a percent of RAM and offers massive convenience for managing files in Linux. Use this solution on your new [Premium VPS](/premium-vps/) and forget about using clumsy FTP programs!
+FileBrowser is a "must-have" for any private server. It uses a fraction of a percent of RAM and offers massive convenience for managing files in Linux. Use this solution on your new [Premium VPS](/vps/premium/) and forget about using clumsy FTP programs!

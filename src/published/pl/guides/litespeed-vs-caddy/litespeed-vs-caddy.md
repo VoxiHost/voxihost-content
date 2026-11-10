@@ -19,7 +19,7 @@ author:
 contributors:
   - danielmarszalkowski
 faq:
-  - question: "Co jest lepsze do hostowania WordPressa – OpenLiteSpeed czy Caddy?"
+  - question: "Co jest lepsze do hostowania WordPressa - OpenLiteSpeed czy Caddy?"
     answer: "OpenLiteSpeed jest zdecydowanym zwycięzcą w przypadku WordPressa dzięki wbudowanemu silnikowi pamięci podręcznej <strong>LSCache</strong>. Komunikuje się on bezpośrednio z jądrem serwera, co pozwala omijać interpreter PHP dla zapisanych stron i osiągać bardzo szybki czas ładowania."
   - question: "Czy Caddy działa wydajniej niż OpenLiteSpeed przy stronach statycznych?"
     answer: "W przypadku stron statycznych oraz konfiguracji reverse proxy Caddy jest niezwykle wydajny i znacznie prostszy w zarządzaniu. Wydajność jest zbliżona, ale automatyczny SSL w Caddy bez dodatkowej konfiguracji czyni go wygodniejszym wyborem dla nowoczesnych aplikacji frontendowych."
@@ -116,7 +116,7 @@ Jeśli wdrażasz API w Node.js, mikroserwisy w Go lub statyczną witrynę (React
 
 ## Podsumowanie: Który serwer pasuje do Twojego VPS?
 
-*   Zainstaluj **OpenLiteSpeed**, jeśli budujesz sklep WooCommerce lub stronę na WordPressie i zależy Ci na najkrótszym czasie ładowania strony dzięki wtyczce LSCache. Serwer ten idealnie sprawdzi się na pakietach [Premium VPS](/pl/premium-vps/), gdzie szybkie dyski SSD NVMe dodatkowo przyspieszą działanie bazy danych.
-*   Zainstaluj **Caddy**, jeśli jesteś deweloperem, chcesz postawić serwer w 10 sekund, automatycznie zabezpieczyć swoje aplikacje certyfikatem SSL i uruchomić lekki reverse proxy na maszynie typu [Budget VPS](/pl/budget-vps/).
+*   Zainstaluj **OpenLiteSpeed**, jeśli budujesz sklep WooCommerce lub stronę na WordPressie i zależy Ci na najkrótszym czasie ładowania strony dzięki wtyczce LSCache. Serwer ten idealnie sprawdzi się na pakietach [Premium VPS](/pl/vps/premium/), gdzie szybkie dyski SSD NVMe dodatkowo przyspieszą działanie bazy danych.
+*   Zainstaluj **Caddy**, jeśli jesteś deweloperem, chcesz postawić serwer w 10 sekund, automatycznie zabezpieczyć swoje aplikacje certyfikatem SSL i uruchomić lekki reverse proxy na maszynie typu [Budget VPS](/pl/vps/budget/).
 
 Oba serwery świetnie współpracują z architekturą sieciową <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> oraz są chronione przez naszą ochronę [Shield DDoS](/pl/shield/), zapewniając bezpieczną i stabilną pracę Twoich projektów.

@@ -159,7 +159,7 @@ Aby wyjść poza teoretyczne porównania, przeprowadziliśmy serię testów wyda
 
 ### Wybierz Podmana, jeśli:
 *   Bezpieczeństwo jest dla Ciebie priorytetem i chcesz izolować uruchomione aplikacje bez nadawania im uprawnień roota.
-*   Uruchamiasz pojedyncze aplikacje webowe lub bazy danych na wydajnym serwerze [Premium VPS](/pl/premium-vps/).
+*   Uruchamiasz pojedyncze aplikacje webowe lub bazy danych na wydajnym serwerze [Premium VPS](/pl/vps/premium/).
 *   Chcesz w pełni zintegrować kontenery z systemd w celu automatycznego uruchamiania i wygodnego logowania procesów.
 
-Oba te rozwiązania działają sprawnie na maszynach typu [Budget VPS](/pl/budget-vps/) oraz [Premium VPS](/pl/premium-vps/) w <span class="text-white">Voxi</span><span class="text-amber-300">Host</span>.
+Oba te rozwiązania działają sprawnie na maszynach typu [Budget VPS](/pl/vps/budget/) oraz [Premium VPS](/pl/vps/premium/) w <span class="text-white">Voxi</span><span class="text-amber-300">Host</span>.

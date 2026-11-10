@@ -151,4 +151,4 @@ Your WordPress site is now live and running inside Docker containers on your VPS
 
 As a next step, we strongly recommend placing your site behind Nginx Proxy Manager to assign a custom domain name and enable free HTTPS via Let's Encrypt. See our guide on [how to set up Nginx Proxy Manager](/guides/setup-nginx-proxy-manager-vps/) for the complete walkthrough.
 
-If you need a reliable VPS to host your WordPress site, check out our [Premium VPS plans](/premium-vps/) or [Budget VPS options](/budget-vps/), which both come with fast NVMe SSD storage and one-click deployment.
+If you need a reliable VPS to host your WordPress site, check out our [Premium VPS plans](/vps/premium/) or [Budget VPS options](/vps/budget/), which both come with fast NVMe SSD storage and one-click deployment.

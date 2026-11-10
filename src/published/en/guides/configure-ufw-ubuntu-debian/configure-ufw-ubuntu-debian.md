@@ -180,4 +180,4 @@ UFW will ask for confirmation, and then the rule will be gone. Note that deletin
 
 UFW is perfect for 99% of typical server setups. It cleanly handles dropping malicious background noise while exposing exactly what you intend to expose. If you pair it with [fail2ban](/guides/setup-fail2ban-ubuntu-debian/), your server will not only drop unwanted traffic, but actively ban IPs that try to abuse your open ports.
 
-If you don't have a server to practice on, our [Budget VPS](/budget-vps/) is the perfect, low-cost environment to spin up, configure a firewall, break things, and start completely fresh without any headaches.
+If you don't have a server to practice on, our [Budget VPS](/vps/budget/) is the perfect, low-cost environment to spin up, configure a firewall, break things, and start completely fresh without any headaches.

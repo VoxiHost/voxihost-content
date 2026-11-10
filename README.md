@@ -1,5 +1,10 @@
 # 📝 VoxiHost Content
 
+> **AI assistance and corrections.** Some articles are drafted with AI assistance and
+> reviewed by the VoxiHost team before publication. If you spot an error or want to improve
+> a page, open an issue or a pull request - every published page's source is in this
+> repository.
+
 This repository contains the source Markdown files, images, and compiled ZIP packages for all VoxiHost guides, tutorials and blog updates. It is designed to be contributor-friendly, allowing the community to submit edits, fixes, and guest posts directly.
 
 ---
@@ -11,13 +16,13 @@ This repository contains only **Markdown source files and images**. You don't ne
 ### ✍️ For Everyone (External Contributors & Community)
 1. Edit or add raw Markdown files and images under the `src/` directory (`src/published/` for edits, `src/drafts/` for new articles).
 2. You can do this directly using the **GitHub Web Interface** (no cloning needed) or by cloning the repo locally.
-3. Once your PR is approved and merged, the VoxiHost team handles the rest — compiling ZIP packages and deploying to the live site.
+3. Once your PR is approved and merged, the VoxiHost team handles the rest - compiling ZIP packages and deploying to the live site.
 
 > [!NOTE]
 > You will never need to touch `dist/`, run scripts, or install Node.js. Those are internal team operations managed outside this repository.
 
 > [!IMPORTANT]
-> Not sure whether your article is a guide or an update, or whether it duplicates something the docs already cover? Read **[CONTENT-IA.md](CONTENT-IA.md)** first — it defines what belongs in each section and how pages link to each other.
+> Not sure whether your article is a guide or an update, or whether it duplicates something the docs already cover? Read **[CONTENT-IA.md](CONTENT-IA.md)** first - it defines what belongs in each section and how pages link to each other.
 
 ---
 
@@ -99,7 +104,7 @@ The community or our team has flagged these articles as containing outdated info
 <!-- START_OUTDATED_POSTS -->
 | Article | EN Source | PL Source |
 | :--- | :--- | :--- |
-| *No articles currently flagged.* | — | — |
+| *No articles currently flagged.* | - | - |
 <!-- END_OUTDATED_POSTS -->
 
 ---
@@ -111,7 +116,7 @@ The following articles are currently in progress, awaiting approval, or schedule
 <!-- START_DRAFTS -->
 | Article | Language | Status | Author | Target Date |
 | :--- | :--- | :--- | :--- | :--- |
-| *No articles currently in draft.* | — | — | — | — |
+| *No articles currently in draft.* | - | - | - | - |
 <!-- END_DRAFTS -->
 
 ---
@@ -136,7 +141,7 @@ voxihost-content/
 │   ├── PULL_REQUEST_TEMPLATE.md              # PR checklist shown to contributors on GitHub
 │   └── CODEOWNERS                            # Auto-assigns reviewers on every PR
 ├── src/                                      # Raw Markdown source files (edit these!)
-│   ├── published/                            # ✅ Live posts — managed by VoxiHost team
+│   ├── published/                            # ✅ Live posts - managed by VoxiHost team
 │   │   ├── en/
 │   │   │   ├── guides/
 │   │   │   │   └── <slug>/                   # Tutorials + Comparisons → /guides/
@@ -156,7 +161,7 @@ voxihost-content/
 ├── ARTICLE_TEMPLATE.md                       # 👈 Start here! Copy this to write a new article
 ├── CONTRIBUTING.md                           # Contribution rules and process
 ├── FORMATTING.md                             # Styling, shortcodes, brand patterns
-├── SEO.md                                    # SEO guide — meta tags, JSON-LD, best practices
+├── SEO.md                                    # SEO guide - meta tags, JSON-LD, best practices
 └── LICENSE                                   # CC BY-NC 4.0 License terms
 ```
 
@@ -168,9 +173,9 @@ This project is open to community contributions! If you want to fix a typo, upda
 
 | Document | Purpose |
 | :--- | :--- |
-| 👉 [ARTICLE_TEMPLATE.md](ARTICLE_TEMPLATE.md) | Copy this to start a new article — all fields pre-filled with comments |
+| 👉 [ARTICLE_TEMPLATE.md](ARTICLE_TEMPLATE.md) | Copy this to start a new article - all fields pre-filled with comments |
 | 📋 [CONTRIBUTING.md](CONTRIBUTING.md) | Rules, process, contributor recognition, and legal agreement |
 | 🎨 [FORMATTING.md](FORMATTING.md) | Image shortcodes, brand patterns, common mistakes reference |
-| 🔍 [SEO.md](SEO.md) | SEO guide — meta tags, JSON-LD schemas, OG images, content best practices |
+| 🔍 [SEO.md](SEO.md) | SEO guide - meta tags, JSON-LD schemas, OG images, content best practices |
 
 All content in this repository is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](LICENSE) license.

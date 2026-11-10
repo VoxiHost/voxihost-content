@@ -230,4 +230,4 @@ sudo find /etc -name "*.rpmnew" -o -name "*.rpmsave"
 
 Look at what's changed, decide if you need to merge anything, then clean up.
 
-If you want a clean RHEL-based VPS to practice this on without risking anything, our [Budget VPS](/budget-vps/) plans are cheap enough to spin up a test box, run the whole process, and discard it.
+If you want a clean RHEL-based VPS to practice this on without risking anything, our [Budget VPS](/vps/budget/) plans are cheap enough to spin up a test box, run the whole process, and discard it.

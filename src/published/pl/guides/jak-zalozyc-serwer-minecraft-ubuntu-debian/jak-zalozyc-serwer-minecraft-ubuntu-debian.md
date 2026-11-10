@@ -36,7 +36,7 @@ contributors:
 
 > **Wybór wersji:** Ten poradnik dotyczy wyłącznie **Minecraft Java Edition**. Nie jest kompatybilny z Bedrock Edition (konsole, urządzenia mobilne ani aplikacja Windows 10 „Bedrock").
 
-Uruchomienie własnego serwera Minecraft Java Edition daje Ci pełną kontrolę nad światem i społecznością. W **<span class="text-white">Voxi</span><span class="text-amber-300">Host</span>** nasze środowiska [Budget VPS](/pl/budget-vps/) oraz [Premium VPS](/pl/premium-vps/) zapewniają dedykowane zasoby niezbędne do płynnego działania serwera bez lagów na dystrybucjach takich jak Ubuntu czy Debian.
+Uruchomienie własnego serwera Minecraft Java Edition daje Ci pełną kontrolę nad światem i społecznością. W **<span class="text-white">Voxi</span><span class="text-amber-300">Host</span>** nasze środowiska [Budget VPS](/pl/vps/budget/) oraz [Premium VPS](/pl/vps/premium/) zapewniają dedykowane zasoby niezbędne do płynnego działania serwera bez lagów na dystrybucjach takich jak Ubuntu czy Debian.
 
 Jednak największą przeszkodą dla nowych administratorów nie jest wiersz poleceń Linuksa, to **Java**.
 
@@ -51,10 +51,10 @@ Oto kompletne zestawienie wersji Minecrafta i odpowiadających im wymagań Javy:
 
 | Wersja Minecraft | Wymagania Java | Zalecany pakiet | Znaczenie |
 | :--- | :--- | :--- | :--- |
-| [1.20.5 – 1.21.x](/pl/guides/serwer-minecraft-1-21-ubuntu-debian/) | **Java 21** | `openjdk-21-jre-headless` | Nowoczesny standard. Niezbędny do najnowszych funkcji Vanilla. |
-| [1.18 – 1.20.4](/pl/guides/serwer-minecraft-1-19-ubuntu-debian/) | **Java 17** | `openjdk-17-jre-headless` | Podstawa wielu aktywnych światów survival. |
-| [1.17 – 1.17.1](/pl/guides/serwer-minecraft-1-17-ubuntu-debian/) | **Java 16** | `openjdk-16-jre-headless` | Aktualizacja przejściowa. Większość administratorów pomija ją na rzecz 1.18+. |
-| [1.7.10 – 1.16.5](/pl/guides/serwer-minecraft-1-8-8-ubuntu-debian/) | **Java 8** | `openjdk-8-jre-headless` | Klasyczna era. Ekstremalna stabilność dla starszych wersji i PvP. |
+| [1.20.5-1.21.x](/pl/guides/serwer-minecraft-1-21-ubuntu-debian/) | **Java 21** | `openjdk-21-jre-headless` | Nowoczesny standard. Niezbędny do najnowszych funkcji Vanilla. |
+| [1.18-1.20.4](/pl/guides/serwer-minecraft-1-19-ubuntu-debian/) | **Java 17** | `openjdk-17-jre-headless` | Podstawa wielu aktywnych światów survival. |
+| [1.17-1.17.1](/pl/guides/serwer-minecraft-1-17-ubuntu-debian/) | **Java 16** | `openjdk-16-jre-headless` | Aktualizacja przejściowa. Większość administratorów pomija ją na rzecz 1.18+. |
+| [1.7.10-1.16.5](/pl/guides/serwer-minecraft-1-8-8-ubuntu-debian/) | **Java 8** | `openjdk-8-jre-headless` | Klasyczna era. Ekstremalna stabilność dla starszych wersji i PvP. |
 
 > **Pro Tip dla użytkowników VPS:** Zawsze zalecamy pakiety `-headless` (np. `openjdk-21-jre-headless`). Pakiety headless nie zawierają bibliotek GUI, które są bezużyteczne na serwerze działającym w trybie terminalowym. Oszczędza to miejsce na dysku i zachowuje RAM dla samego serwera Minecrafta.
 
@@ -88,6 +88,6 @@ Chcesz przeżyć grę dokładnie tak jak w klasycznej erze? Uruchom Vanilla na J
 
 ## Podsumowanie
 
-Zrozumienie zależności między wersjami Minecrafta a wersjami Javy to najważniejszy krok w kierunku udanej administracji serwerem. Niezależnie od tego, czy wybierzesz [Budget VPS](/pl/budget-vps/) jako budżetowy start, czy [Premium VPS](/pl/premium-vps/) dla wydajnego serwera społecznościowego, właściwe środowisko Java to klucz do stabilnego uruchomienia.
+Zrozumienie zależności między wersjami Minecrafta a wersjami Javy to najważniejszy krok w kierunku udanej administracji serwerem. Niezależnie od tego, czy wybierzesz [Budget VPS](/pl/vps/budget/) jako budżetowy start, czy [Premium VPS](/pl/vps/premium/) dla wydajnego serwera społecznościowego, właściwe środowisko Java to klucz do stabilnego uruchomienia.
 
 Wybierz docelową wersję z tabeli powyżej i skorzystaj z naszych szczegółowych poradników, by uruchomić swój świat Minecraft Java Edition!

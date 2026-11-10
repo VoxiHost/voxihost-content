@@ -128,4 +128,4 @@ nvidia-smi
 
 Jeśli na ekranie zobaczysz tabelę ze szczegółami swojej karty GPU, wszystko działa prawidłowo! Jeśli uruchamiasz kontenery korzystające z akceleracji graficznej, pamiętaj o zapoznaniu się z dokumentacją [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html).
 
-Szukasz wydajnego środowiska do realizacji swoich projektów sztucznej inteligencji? Sprawdź plany [Premium VPS](/pl/premium-vps/) od <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> z dedykowanymi zasobami sprzętowymi.
+Szukasz wydajnego środowiska do realizacji swoich projektów sztucznej inteligencji? Sprawdź plany [Premium VPS](/pl/vps/premium/) od <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> z dedykowanymi zasobami sprzętowymi.

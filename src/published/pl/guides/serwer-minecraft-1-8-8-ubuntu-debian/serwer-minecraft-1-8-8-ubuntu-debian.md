@@ -1,6 +1,6 @@
 ---
 image: /assets/images/blog/pl/serwer-minecraft-1-8-8-ubuntu-debian/og-image.png
-title: Jak postawić klasyczny serwer Minecraft 1.8.8 (Java 8) na Ubuntu/Debian
+title: Serwer Minecraft 1.8.8 na Ubuntu i Debian
 description: Poradnik instalacji serwera Minecraft 1.8.8, idealny do nostalgicznego PvP i klasycznej rozgrywki Vanilla z użyciem Java 8.
 date: '2026-04-23'
 updated: '2026-06-02'
@@ -71,14 +71,14 @@ Klasyczne wersje Minecrafta z ery **1.7.10 do 1.16.5** wymagają **Java 8** dla 
 ### Obsługiwane wersje
 Ten poradnik dla Java 8 jest w pełni kompatybilny z:
 * **Era 1.16:** 1.16.5, 1.16.4, 1.16.3, 1.16.2, 1.16.1, 1.16
-* **1.13 – 1.15:** 1.15.2, 1.15.1, 1.15, 1.14.4, 1.13.2
-* **Klasyczne (1.7 – 1.12):** 1.12.2, 1.11.2, 1.10.2, 1.9.4, 1.8.9, 1.8.8, 1.7.10
+* **1.13-1.15:** 1.15.2, 1.15.1, 1.15, 1.14.4, 1.13.2
+* **Klasyczne (1.7-1.12):** 1.12.2, 1.11.2, 1.10.2, 1.9.4, 1.8.9, 1.8.8, 1.7.10
 
 Dokładny link do pobrania swojej wersji znajdziesz w naszym [Archiwum linków do serwerów Minecraft Vanilla](/pl/guides/serwer-minecraft-linki-do-pobrania/).
 
 ## Wymagania wstępne
 
-* VPS z systemem **Ubuntu lub Debian** (dostępny w ramach [Premium VPS](/pl/premium-vps/)).
+* VPS z systemem **Ubuntu lub Debian** (dostępny w ramach [Premium VPS](/pl/vps/premium/)).
 * Dostęp root lub sudo przez SSH (do instalacji Javy).
 * **Ograniczony użytkownik inny niż root** do bezpiecznego uruchamiania serwera.
 
@@ -239,4 +239,4 @@ Teraz, gdy serwer działa, pamiętaj o:
 3. **Transfer plików**: Chcesz wgrać istniejący świat? Skorzystaj z SFTP zgodnie z opisem w naszym [Tutorialu FileZilla](/pl/guides/przesylanie-plikow-vps-sftp-filezilla/).
 4. **Utwardzenie i monitoring**: Zwiększ bezpieczeństwo VPS, [zabezpieczając SSH](/pl/guides/jak-zabezpieczyc-ssh-ubuntu-debian/) i [konfigurując Fail2ban](/pl/guides/konfiguracja-fail2ban-ubuntu-debian/). Możesz też [monitorować zasoby systemowe](/pl/guides/monitorowanie-vps-htop-df-free/) za pomocą htop.
 
-Osiągnij wysokie TPS na naszych planach **[Budget VPS](/pl/budget-vps/)**!
+Osiągnij wysokie TPS na naszych planach **[Budget VPS](/pl/vps/budget/)**!

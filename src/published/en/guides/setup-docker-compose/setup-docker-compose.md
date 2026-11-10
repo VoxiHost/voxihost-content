@@ -217,4 +217,4 @@ docker compose down
 ```
 *(By default, this does NOT delete your database volume, so your WordPress posts are completely safe upon re-deployment).*
 
-To deploy high-availability application stacks using containerized architecture, there is nothing like a high-performance backend infrastructure backing it. Spin up a [Premium VPS](/premium-vps/), install Docker, copy in your YAML configs, and launch your complex, multi-layered infrastructures into production effortlessly.
+To deploy high-availability application stacks using containerized architecture, there is nothing like a high-performance backend infrastructure backing it. Spin up a [Premium VPS](/vps/premium/), install Docker, copy in your YAML configs, and launch your complex, multi-layered infrastructures into production effortlessly.

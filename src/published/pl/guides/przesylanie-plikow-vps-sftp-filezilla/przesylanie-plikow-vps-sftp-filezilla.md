@@ -162,4 +162,4 @@ Przejdź tam w oknie po prawej stronie, przeciągnij swój `index.html` z pulpit
 
 Możesz teraz bezpiecznie zarządzać plikami na swoim serwerze VPS z wygody i intuicyjnym interfejsem graficznym!
 
-Jeśli nie masz jeszcze serwera do ćwiczeń, nasze plany [Budget VPS](/pl/budget-vps/) to idealne, tanie środowiska do nauki zarządzania Linuksem bez ryzyka.
+Jeśli nie masz jeszcze serwera do ćwiczeń, nasze plany [Budget VPS](/pl/vps/budget/) to idealne, tanie środowiska do nauki zarządzania Linuksem bez ryzyka.

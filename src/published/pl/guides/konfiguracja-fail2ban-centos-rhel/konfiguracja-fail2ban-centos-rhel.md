@@ -261,4 +261,4 @@ sudo ausearch -m avc -ts recent | grep fail2ban
 
 Najczęstsze problemy są rozwiązywane przez instalowanie pakietu `fail2ban` przez oficjalne repozytoria (które zawierają poprawne konteksty SELinux) zamiast instalacji ręcznej.
 
-Jeśli chcesz czysty serwer oparty na RHEL do przetestowania tej konfiguracji, nasze plany [Budget VPS](/pl/budget-vps/) pozwalają cię uruchomić, skonfigurować i eksperymentować bez dotykania czegokolwiek ważnego.
+Jeśli chcesz czysty serwer oparty na RHEL do przetestowania tej konfiguracji, nasze plany [Budget VPS](/pl/vps/budget/) pozwalają cię uruchomić, skonfigurować i eksperymentować bez dotykania czegokolwiek ważnego.

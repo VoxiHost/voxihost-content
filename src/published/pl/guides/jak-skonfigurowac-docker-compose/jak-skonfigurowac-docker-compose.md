@@ -221,4 +221,4 @@ docker compose down
 
 *(Domyślnie, to NIE usuwa twojego woluminu bazy danych, więc twoje posty WordPress są całkowicie bezpieczne przy ponownym wdrożeniu).*
 
-Aby wdrażać stosy aplikacji o wysokiej dostępności używając architektury kontenerowej, nie ma nic lepszego niż wysokowydajna infrastruktura backendowa ją wspierająca. Uruchom [Premium VPS](/pl/premium-vps/), zainstaluj Docker, skopiuj swoje konfiguracje YAML i uruchom swoje złożone, wielowarstwowe infrastruktury do produkcji bez wysiłku.
+Aby wdrażać stosy aplikacji o wysokiej dostępności używając architektury kontenerowej, nie ma nic lepszego niż wysokowydajna infrastruktura backendowa ją wspierająca. Uruchom [Premium VPS](/pl/vps/premium/), zainstaluj Docker, skopiuj swoje konfiguracje YAML i uruchom swoje złożone, wielowarstwowe infrastruktury do produkcji bez wysiłku.

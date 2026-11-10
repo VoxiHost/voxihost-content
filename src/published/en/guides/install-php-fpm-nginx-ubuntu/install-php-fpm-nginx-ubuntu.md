@@ -44,7 +44,7 @@ faq:
 
 Running a high-performance web server requires a stack that balances speed with resource efficiency. While Apache has served the web for decades, Nginx combined with PHP-FPM has become the standard for modern, high-traffic applications. By offloading PHP processing to a dedicated FastCGI Process Manager, you gain significant improvements in memory consumption and request handling compared to older execution methods.
 
-This guide focuses on setting up a stable, production-ready environment on Ubuntu 26.04 LTS. We will walk through the installation of Nginx and the default PHP 8.5 version (PHP-FPM) available on your system, ensuring they communicate correctly via Unix sockets. This configuration is ideal for developers hosting dynamic sites on a <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Premium VPS](/premium-vps/), where every millisecond of latency reduction matters.
+This guide focuses on setting up a stable, production-ready environment on Ubuntu 26.04 LTS. We will walk through the installation of Nginx and the default PHP 8.5 version (PHP-FPM) available on your system, ensuring they communicate correctly via Unix sockets. This configuration is ideal for developers hosting dynamic sites on a <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Premium VPS](/vps/premium/), where every millisecond of latency reduction matters.
 
 We prioritize a clean, minimal installation. We avoid bloated bundles in favor of package-managed, official repositories that ensure security updates are just an `apt upgrade` away. By the end of this tutorial, you will have a functional web server capable of serving dynamic PHP content, complete with the configuration tweaks required to avoid common bottlenecks. Whether you are migrating an existing application or spinning up a fresh project, this setup provides a rock-solid foundation for your infrastructure.
 
@@ -52,7 +52,7 @@ We prioritize a clean, minimal installation. We avoid bloated bundles in favor o
 
 Before beginning the installation, ensure your server meets the baseline requirements for a stable production environment. We recommend a minimum of 1GB of RAM and at least one dedicated CPU core to handle the overhead of Nginx and the PHP-FPM worker processes without performance degradation. This guide assumes you are running a fresh installation of Ubuntu 26.04 LTS.
 
-You must have root access or a user account with `sudo` privileges to execute administrative commands. If you are using a <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Budget VPS](/budget-vps/), ensure your firewall is correctly configured to allow incoming traffic on ports 80 and 443. If you have not yet set up your firewall, follow our guide on [securing-ubuntu-server-with-ufw](/guides/configure-ufw-ubuntu-debian/) to prevent unauthorized access to your management ports.
+You must have root access or a user account with `sudo` privileges to execute administrative commands. If you are using a <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Budget VPS](/vps/budget/), ensure your firewall is correctly configured to allow incoming traffic on ports 80 and 443. If you have not yet set up your firewall, follow our guide on [securing-ubuntu-server-with-ufw](/guides/configure-ufw-ubuntu-debian/) to prevent unauthorized access to your management ports.
 
 Verify that your package list is current and that your system is fully updated to avoid dependency conflicts during the installation process. Although we will install specific packages in the following steps, having a clean, updated environment prevents common library mismatch errors. Ensure you are logged into your server via SSH and have your domain or server IP address ready for testing the final configuration.
 
@@ -79,7 +79,7 @@ Once the installation is complete, you should check which PHP version was instal
 php -v
 ```
 
-For example, if the output shows `PHP 8.5.x`, your PHP-FPM service name is `php8.5-fpm` and the socket file is `php8.5-fpm.sock` (if you are on Ubuntu 24.04 LTS, it will show `PHP 8.3.x` with `php8.3-fpm` and `php8.3-fpm.sock`). Note this version — you will use it in the Nginx configuration in the next step.
+For example, if the output shows `PHP 8.5.x`, your PHP-FPM service name is `php8.5-fpm` and the socket file is `php8.5-fpm.sock` (if you are on Ubuntu 24.04 LTS, it will show `PHP 8.3.x` with `php8.3-fpm` and `php8.3-fpm.sock`). Note this version - you will use it in the Nginx configuration in the next step.
 
 ## Step 2: Configure the Nginx Server Block
 
@@ -191,6 +191,6 @@ sudo systemctl start nginx
 sudo systemctl start php8.x-fpm
 ```
 
-For those managing critical workloads, monitoring is the next logical step. Keep an eye on system resource usage through your <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> dashboard, especially if you are scaling your [Premium VPS](/premium-vps/) or [Budget VPS](/budget-vps/) environments. Regularly checking your logs and keeping your packages current will ensure that your web server remains both fast and secure against emerging vulnerabilities. 
+For those managing critical workloads, monitoring is the next logical step. Keep an eye on system resource usage through your <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> dashboard, especially if you are scaling your [Premium VPS](/vps/premium/) or [Budget VPS](/vps/budget/) environments. Regularly checking your logs and keeping your packages current will ensure that your web server remains both fast and secure against emerging vulnerabilities. 
 
 If you decide to expand your infrastructure further, consider looking into [How to Set Up SSL with Let's Encrypt & Certbot on Ubuntu & Debian: The Complete Guide](/guides/ssl-letsencrypt-certbot-ubuntu/) to encrypt your traffic and improve your search engine rankings.

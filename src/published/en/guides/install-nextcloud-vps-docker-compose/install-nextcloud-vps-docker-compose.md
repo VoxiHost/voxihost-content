@@ -155,4 +155,4 @@ Congratulations! You now have your own self-hosted Nextcloud instance running se
 
 As a next step, we strongly recommend placing Nextcloud behind a custom domain with free HTTPS using [Nginx Proxy Manager](/guides/setup-nginx-proxy-manager-vps/), so your cloud is accessible from anywhere via a clean, encrypted URL.
 
-If you need a reliable server to host your self-managed cloud, check out our [Premium VPS plans](/premium-vps/) or [Budget VPS options](/budget-vps/), which both come with fast NVMe SSD storage and high-bandwidth connectivity.
+If you need a reliable server to host your self-managed cloud, check out our [Premium VPS plans](/vps/premium/) or [Budget VPS options](/vps/budget/), which both come with fast NVMe SSD storage and high-bandwidth connectivity.

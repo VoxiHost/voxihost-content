@@ -6,10 +6,10 @@ Before submitting this PR, please verify all items below. Incomplete submissions
 
 ### 📝 Article Content
 
-- [ ] The article's content is **factually accurate** — I personally ran, tested, and verified every command, script, and configuration shown.
-- [ ] The article is **free of hallucinated or unverified AI-generated content** — every command was tested in a real environment.
+- [ ] The article's content is **factually accurate** - I personally ran, tested, and verified every command, script, and configuration shown.
+- [ ] The article is **free of hallucinated or unverified AI-generated content** - every command was tested in a real environment.
 - [ ] The article clearly states **which operating systems and versions** it was tested on (e.g. Ubuntu 24.04 LTS, Rocky Linux 9).
-- [ ] The writing is clear, concise, and avoids unnecessary "walls of text" — images/screenshots break up long sections.
+- [ ] The writing is clear, concise, and avoids unnecessary "walls of text" - images/screenshots break up long sections.
 
 ---
 
@@ -42,7 +42,7 @@ Before submitting this PR, please verify all items below. Incomplete submissions
 
 - [ ] The brand name **VoxiHost** in article body text is wrapped in HTML spans:
   `<span class="text-white">Voxi</span><span class="text-amber-300">Host</span>`
-  *(Exception: inside code blocks, systemd unit files, image alt text, or YAML fields — keep plain text there.)*
+  *(Exception: inside code blocks, systemd unit files, image alt text, or YAML fields - keep plain text there.)*
 - [ ] Internal links use standard Markdown format and point to the correct paths:
   - Premium VPS → `/premium-vps/` or `/pl/premium-vps/`
   - Budget VPS → `/budget-vps/` or `/pl/budget-vps/`
@@ -54,7 +54,7 @@ Before submitting this PR, please verify all items below. Incomplete submissions
 
 - [ ] The article folder name is in **kebab-case** and matches the article's URL slug.
 - [ ] The `.md` file is named **exactly** the same as the folder (e.g. `folder/folder.md`).
-- [ ] This PR targets the `src/drafts/` directory (not `src/published/` — that is managed by the VoxiHost team).
+- [ ] This PR targets the `src/drafts/` directory (not `src/published/` - that is managed by the VoxiHost team).
 
 ---
 

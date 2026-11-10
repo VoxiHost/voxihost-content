@@ -144,4 +144,4 @@ ssh yourusername@your-server-ip
 
 For a truly secure server, your next move should be setting up SSH key authentication for this new user and [disabling root login entirely](/guides/secure-ssh-ubuntu-debian/).
 
-If you're looking for a clean, fast environment to host your projects, deploy a [Budget VPS](/budget-vps/), create your user, and start building.
+If you're looking for a clean, fast environment to host your projects, deploy a [Budget VPS](/vps/budget/), create your user, and start building.

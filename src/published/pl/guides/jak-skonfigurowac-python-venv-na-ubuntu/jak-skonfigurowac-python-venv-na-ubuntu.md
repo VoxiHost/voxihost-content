@@ -45,13 +45,13 @@ faq:
 
 Zarządzanie zależnościami języka Python na serwerze produkcyjnym często prowadzi do konfliktów. Instalowanie pakietów globalnie za pomocą `pip` niesie ze sobą ryzyko uszkodzenia narzędzi systemowych, które polegają na konkretnych wersjach bibliotek. W nowoczesnych dystrybucjach Ubuntu problem ten został dodatkowo rozwiązany przez PEP 668, który ogranicza globalną instalację pakietów w celu zapewnienia stabilności systemu.
 
-Standardowym rozwiązaniem w branży jest środowisko wirtualne, czyli `venv`. Izolując zależności projektu w lokalnym katalogu, zyskujesz pewność, że aplikacja posiada dokładnie to, czego potrzebuje, nie zakłócając przy tym działania systemu operacyjnego ani innych projektów hostowanych na Twoim <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Premium VPS](/pl/premium-vps/).
+Standardowym rozwiązaniem w branży jest środowisko wirtualne, czyli `venv`. Izolując zależności projektu w lokalnym katalogu, zyskujesz pewność, że aplikacja posiada dokładnie to, czego potrzebuje, nie zakłócając przy tym działania systemu operacyjnego ani innych projektów hostowanych na Twoim <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Premium VPS](/pl/vps/premium/).
 
-Ten przewodnik przedstawia bezpośrednie i konkretne podejście do konfiguracji izolowanych środowisk Python. Przejdziemy przez proces instalacji niezbędnego modułu, utworzymy czysty obszar roboczy oraz aktywujemy środowisko, aby bezpiecznie instalować pakiety. Niezależnie od tego, czy uruchamiasz lekki mikroserwis na [Budget VPS](/pl/budget-vps/), czy zarządzasz złożonymi potokami danych, ta konfiguracja stanowi fundament profesjonalnego programowania w języku Python na systemach Linux.
+Ten przewodnik przedstawia bezpośrednie i konkretne podejście do konfiguracji izolowanych środowisk Python. Przejdziemy przez proces instalacji niezbędnego modułu, utworzymy czysty obszar roboczy oraz aktywujemy środowisko, aby bezpiecznie instalować pakiety. Niezależnie od tego, czy uruchamiasz lekki mikroserwis na [Budget VPS](/pl/vps/budget/), czy zarządzasz złożonymi potokami danych, ta konfiguracja stanowi fundament profesjonalnego programowania w języku Python na systemach Linux.
 
 ## Wymagania wstępne
 
-Przed rozpoczęciem upewnij się, że Twój serwer spełnia minimalne wymagania dla stabilnego środowiska programistycznego. Zalecamy posiadanie co najmniej 512 MB pamięci RAM oraz 1 rdzenia procesora, co stanowi standard dla naszych instancji [Budget VPS](/pl/budget-vps/) oraz [Premium VPS](/pl/premium-vps/).
+Przed rozpoczęciem upewnij się, że Twój serwer spełnia minimalne wymagania dla stabilnego środowiska programistycznego. Zalecamy posiadanie co najmniej 512 MB pamięci RAM oraz 1 rdzenia procesora, co stanowi standard dla naszych instancji [Budget VPS](/pl/vps/budget/) oraz [Premium VPS](/pl/vps/premium/).
 
 Powinieneś posiadać dostęp do serwera z systemem Ubuntu 22.04 LTS lub nowszym oraz użytkownika innego niż root, który posiada uprawnienia `sudo`. Jeśli nie skonfigurowałeś jeszcze swojego konta administracyjnego, zapoznaj się z naszym przewodnikiem [Jak dodać użytkownika sudo na Ubuntu](/pl/guides/jak-dodac-uzytkownika-sudo-ubuntu/), aby upewnić się, że nie uruchamiasz zadań programistycznych jako użytkownik root.
 
@@ -80,7 +80,7 @@ Ta instalacja dostarcza moduł `venv`, który umożliwia tworzenie lekkich, odiz
 python3 --version
 ```
 
-W przypadku korzystania z <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Premium VPS](/pl/premium-vps/), operacja ta zakończy się w kilka sekund. Jesteś teraz gotowy do zainicjowania swojego pierwszego wirtualnego środowiska wewnątrz dedykowanego katalogu projektu.
+W przypadku korzystania z <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Premium VPS](/pl/vps/premium/), operacja ta zakończy się w kilka sekund. Jesteś teraz gotowy do zainicjowania swojego pierwszego wirtualnego środowiska wewnątrz dedykowanego katalogu projektu.
 
 {% image "/assets/images/blog/pl/jak-skonfigurowac-python-venv-na-ubuntu/H2.png", "Wyjście terminala pokazujące pomyślną instalację pakietu python3-venv za pomocą apt", "(max-width: 768px) 100vw, 800px" %}
 
@@ -155,7 +155,7 @@ Plik `requirements.txt` jest standardem w branży, służącym do utrzymywania s
 
 ## Podsumowanie
 
-Pomyślnie utworzyłeś odizolowane środowisko Python w swoim systemie. Rezygnując z globalnego zarządzania pakietami, wyeliminowałeś ryzyko konfliktów zależności i zapewniłeś przenośność oraz stabilność swoich projektów. Ten sposób pracy jest szczególnie istotny podczas wdrażania aplikacji na serwerze <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Premium VPS](/pl/premium-vps/) lub [Budget VPS](/pl/budget-vps/), gdzie utrzymanie czystego stanu systemu jest niezbędne dla długoterminowej kondycji serwera.
+Pomyślnie utworzyłeś odizolowane środowisko Python w swoim systemie. Rezygnując z globalnego zarządzania pakietami, wyeliminowałeś ryzyko konfliktów zależności i zapewniłeś przenośność oraz stabilność swoich projektów. Ten sposób pracy jest szczególnie istotny podczas wdrażania aplikacji na serwerze <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Premium VPS](/pl/vps/premium/) lub [Budget VPS](/pl/vps/budget/), gdzie utrzymanie czystego stanu systemu jest niezbędne dla długoterminowej kondycji serwera.
 
 Pamiętaj, że środowiska wirtualne są tymczasowe. Jeśli zajdzie potrzeba aktualizacji zależności, wystarczy ponownie aktywować środowisko za pomocą polecenia `source venv/bin/activate` i uruchomić aktualizacje. W przypadku, gdy wymagania projektu ulegną znaczącej zmianie, często czystszym rozwiązaniem jest usunięcie katalogu `venv` i utworzenie go ponownie z pliku `requirements.txt`, zamiast ręcznego odinstalowywania dziesiątek pojedynczych pakietów.
 

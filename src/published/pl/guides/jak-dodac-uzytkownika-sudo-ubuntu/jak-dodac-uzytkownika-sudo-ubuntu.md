@@ -144,4 +144,4 @@ ssh yourusername@your-server-ip
 
 Dla naprawdę bezpiecznego serwera, twoim następnym ruchem powinno być skonfigurowanie uwierzytelniania kluczem SSH dla tego nowego użytkownika i [całkowite wyłączenie logowania root](/pl/guides/jak-zabezpieczyc-ssh-ubuntu-debian/).
 
-Jeśli szukasz czystego, szybkiego środowiska do hostowania swoich projektów, wdróż [Budget VPS](/pl/budget-vps/), stwórz swojego użytkownika i zacznij budować.
+Jeśli szukasz czystego, szybkiego środowiska do hostowania swoich projektów, wdróż [Budget VPS](/pl/vps/budget/), stwórz swojego użytkownika i zacznij budować.

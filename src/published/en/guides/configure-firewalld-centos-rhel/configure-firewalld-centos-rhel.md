@@ -183,4 +183,4 @@ sudo firewall-cmd --reload
 
 Once configured, `firewalld` runs quietly in the background securing the system. Since it natively integrates into the core of Fedora, Rocky, CentOS and AlmaLinux, it gracefully handles complex operations like bridging containers or routing internal networks natively. Coupled with [fail2ban](/guides/setup-fail2ban-centos-rhel/), your server is highly resistant to generic brute-force probing from internet bots.
 
-To test your security skills on the live internet without risking any production payloads, checking out a temporary, low-tier [Budget VPS](/budget-vps/) is a cheap, reliable way to practice configuring an unbreachable RHEL system.
+To test your security skills on the live internet without risking any production payloads, checking out a temporary, low-tier [Budget VPS](/vps/budget/) is a cheap, reliable way to practice configuring an unbreachable RHEL system.

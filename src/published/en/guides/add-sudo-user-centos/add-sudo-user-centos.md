@@ -157,4 +157,4 @@ ssh yourusername@your-server-ip
 
 Now that you have a sudo user, your next security priority should be setting up SSH key authentication and [disabling direct root login entirely](/guides/secure-ssh-centos-rhel/). 
 
-If you're ready to deploy your next application in a high-performance environment, spin up a [Budget VPS](/budget-vps/), secure your user accounts, and start hosting.
+If you're ready to deploy your next application in a high-performance environment, spin up a [Budget VPS](/vps/budget/), secure your user accounts, and start hosting.

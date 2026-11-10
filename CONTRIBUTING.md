@@ -1,12 +1,16 @@
 # 🤝 Contributing to voxihost-content
 
+> **AI assistance.** Some articles are drafted with AI assistance and reviewed by the
+> VoxiHost team before publication. Corrections are welcome even if a page was published -
+> open an issue or a pull request with the page URL and what should change.
+
 We are excited that you want to help improve the VoxiHost knowledge base and blog articles! Your contributions keep our guides up-to-date, accurate, and helpful for the entire hosting and development community.
 
 By submitting corrections or new articles, you help other developers, system administrators, and tech enthusiasts. In return, we highlight your contributions on the official VoxiHost site!
 
 ---
 
-## 🛣️ Two Contribution Paths — Which One Is Yours?
+## 🛣️ Two Contribution Paths - Which One Is Yours?
 
 There are two completely different workflows depending on what you want to do. Read both and pick the right one:
 
@@ -45,13 +49,13 @@ Use this when you want to fix a typo, update a deprecated command, add a missing
    - Updating package version numbers or deprecated flags
    - Adding a missed step or clarification
    - Updating a broken link
-   - Adding or replacing a screenshot (put new images in `images/` and reference them with `{% image %}` shortcode — see [FORMATTING.md](FORMATTING.md))
+   - Adding or replacing a screenshot (put new images in `images/` and reference them with `{% image %}` shortcode - see [FORMATTING.md](FORMATTING.md))
 4. **Do NOT touch the YAML frontmatter** unless you are adding your GitHub username to `contributors` or updating the `updated: YYYY-MM-DD` date field.
 5. **Submit a Pull Request** with a short description of what you changed and why.
 
 ### Key rules for edits
-- **Preserve existing formatting** — do not restructure headings or reorder steps unless specifically fixing a logic error.
-- **One fix per PR** — keep your changes focused. A PR fixing 3 unrelated articles is harder to review and more likely to be rejected.
+- **Preserve existing formatting** - do not restructure headings or reorder steps unless specifically fixing a logic error.
+- **One fix per PR** - keep your changes focused. A PR fixing 3 unrelated articles is harder to review and more likely to be rejected.
 - **Add your username** to the `contributors` array in the YAML frontmatter if it's not already there.
 - **Update the `updated:` field** in the YAML frontmatter to today's date if you made a substantial content change (not for pure typo fixes).
 
@@ -90,7 +94,7 @@ Use this when you want to contribute an **original, complete guide** that does n
    - Use `>` blockquotes for tips and warnings
    - Include enough images that the guide isn't a "wall of text"
 
-6. **If writing in both languages** (recommended!), create two separate folders — one under `en/` and one under `pl/` — using different slugs but the **same `translationKey` value** in both files. This activates the 🇬🇧/🇵🇱 language switcher on the published page.
+6. **If writing in both languages** (recommended!), create two separate folders - one under `en/` and one under `pl/` - using different slugs but the **same `translationKey` value** in both files. This activates the 🇬🇧/🇵🇱 language switcher on the published page.
 
 7. **Submit a Pull Request** targeting the `src/drafts/` path. Include in your PR description:
    - What the article covers
@@ -101,7 +105,7 @@ Use this when you want to contribute an **original, complete guide** that does n
 - **Right section first.** Is it a guide or an update, and does it duplicate something the docs already cover? See [CONTENT-IA.md](CONTENT-IA.md).
 - **All commands must be tested.** No copy-pasting from ChatGPT or other sources without personal verification. See [AI-Assisted Writing Policy](#4-ai-assisted-writing-policy).
 - **One article per PR.** Do not submit multiple unrelated articles in a single PR.
-- **Article must be complete.** Do not submit an outline or half-finished draft — the article must be ready to publish from start to finish.
+- **Article must be complete.** Do not submit an outline or half-finished draft - the article must be ready to publish from start to finish.
 - **Your username in `contributors`.** Add your GitHub username to the `contributors` array so your avatar appears on the article page.
 
 ---
@@ -122,7 +126,7 @@ Regardless of which path you chose, the review process is the same:
 
 ## 🛠️ Technical and Formatting Guidelines
 
-To ensure the articles compile and render correctly on the VoxiHost site engine, please follow these rules. The site is built with **Eleventy (11ty)**, processes articles from ZIP packages, and uses a custom Nunjucks image shortcode — so there are a few specific patterns you must follow.
+To ensure the articles compile and render correctly on the VoxiHost site engine, please follow these rules. The site is built with **Eleventy (11ty)**, processes articles from ZIP packages, and uses a custom Nunjucks image shortcode - so there are a few specific patterns you must follow.
 
 ### 1. Article Template
 
@@ -138,9 +142,9 @@ Every `.md` file starts with a metadata block enclosed by triple dashes `---`. T
 
 | Field | Type | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `title` | String | **Yes** | SEO-friendly article headline. Plain text only — no Markdown syntax. |
+| `title` | String | **Yes** | SEO-friendly article headline. Plain text only - no Markdown syntax. |
 | `description` | String | **Yes** | Short summary (max 160 chars) for meta tags and article cards. Plain text only. |
-| `image` | String | Team | Path to the hero/OG image. **Generated by the VoxiHost team** — leave as the placeholder or omit when submitting a draft. |
+| `image` | String | Team | Path to the hero/OG image. **Generated by the VoxiHost team** - leave as the placeholder or omit when submitting a draft. |
 | `date` | Date | **Yes** | Publication date, format: `YYYY-MM-DD` |
 | `updated` | Date | No | Last updated date, format: `YYYY-MM-DD`. Displays an "(Updated: …)" badge. |
 | `translationKey` | String | **Yes** | Unique key shared between EN and PL versions of the same article (enables language switcher). |
@@ -151,7 +155,7 @@ Every `.md` file starts with a metadata block enclosed by triple dashes `---`. T
 | `author` | Object | **Yes** | Author object with `name` and `link`. See format below. |
 | `contributors` | Array | **Yes** | Your GitHub username(s). The site fetches your avatar automatically. |
 | `howto` | Object | No | HowTo structured data for step-by-step guides (enables Google rich results). See template. |
-| `isIndex` | Boolean | No | Set to `true` only for hub/index pages — hides from the main post listing grid. |
+| `isIndex` | Boolean | No | Set to `true` only for hub/index pages - hides from the main post listing grid. |
 
 **Author Format (always use the object form):**
 ```yaml
@@ -177,6 +181,19 @@ contributors:
 > [!NOTE]
 > New categories may be added by the VoxiHost team in the future. If you believe your article doesn't fit any existing category, mention it in your PR description.
 
+**Docs pages are different.** Pages under `published/<locale>/docs/<slug>/` describe the
+VoxiHost panel rather than a task:
+
+- Use `section: docs` and **no** `category`, `image`, `tags` or `howto`.
+- The recommended frontmatter is `title`, `description`, `date`, `updated`,
+  `translationKey`, `locale`, `status`, `section` and `author`.
+- The `.md` filename and folder are the **English slug in both locales** (for example
+  `published/pl/docs/billing/billing.md`); the site routes docs by filename, so a translated
+  filename breaks the Polish page.
+- Packages are named `docs-<slug>-package.zip` and contain only the Markdown file - docs
+  packages are text-only and do not carry `images/`.
+- Body headings start at `##` (the template renders the only `<h1>` from `title`).
+
 ### 3. Styling & Formatting Guidelines
 
 All articles must follow the VoxiHost Markdown styling and brand patterns.
@@ -191,7 +208,7 @@ All articles must follow the VoxiHost Markdown styling and brand patterns.
 > [!NOTE]
 > We are fine with AI tools (ChatGPT, Claude, Gemini, Copilot) helping you **draft, translate, or structure** your content. However, **unverified AI output is never acceptable**:
 > - Every terminal command, script, configuration path, and package name **must be personally tested** in a real environment before submission.
-> - PRs containing hallucinated, outdated, or non-functional commands will be **rejected immediately** — no exceptions.
+> - PRs containing hallucinated, outdated, or non-functional commands will be **rejected immediately** - no exceptions.
 
 ### 5. Technical Accuracy & OS Compatibility
 Your guide must be transparent about its scope:

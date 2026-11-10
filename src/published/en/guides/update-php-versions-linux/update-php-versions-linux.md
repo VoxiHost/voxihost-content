@@ -227,4 +227,4 @@ Anytime you edit the `fpm/php.ini` file, you must restart that specific FPM serv
 sudo systemctl restart php8.3-fpm
 ```
 
-Hosting multiple applications with wildly different legacy and modern PHP requirements requires a server with the RAM and CPU to handle the distinct FPM daemon pools smoothly. Grab a massively reliable [Premium VPS](/premium-vps/), install as many PHP versions as your clients require, and run them concurrently without breaking a sweat.
+Hosting multiple applications with wildly different legacy and modern PHP requirements requires a server with the RAM and CPU to handle the distinct FPM daemon pools smoothly. Grab a massively reliable [Premium VPS](/vps/premium/), install as many PHP versions as your clients require, and run them concurrently without breaking a sweat.

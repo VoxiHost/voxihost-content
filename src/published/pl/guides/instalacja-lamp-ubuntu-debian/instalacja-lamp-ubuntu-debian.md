@@ -207,4 +207,4 @@ Jeśli instalacja się powiodła, zostaniesz powitany ogromną, szczegółową t
 sudo rm /var/www/html/info.php
 ```
 
-Gratulacje! Pomyślnie zbudowałeś sprawdzony, przetestowany i solidny fundament do hostowania dynamicznych aplikacji na Linuksie. Czy masz ciężki sklep e-commerce, forum czy blog o dużym ruchu gotowy do uruchomienia? Połącz swój nowy stos LAMP z jednym z naszych środowisk [Premium VPS](/pl/premium-vps/) lub wysoko efektywnych kosztowo [Budget VPS](/pl/budget-vps/), zainstaluj [bezpłatny SSL przez Certbot](/pl/guides/certyfikat-ssl-letsencrypt-ubuntu/) i zbuduj ostateczne doświadczenie WWW.
+Gratulacje! Pomyślnie zbudowałeś sprawdzony, przetestowany i solidny fundament do hostowania dynamicznych aplikacji na Linuksie. Czy masz ciężki sklep e-commerce, forum czy blog o dużym ruchu gotowy do uruchomienia? Połącz swój nowy stos LAMP z jednym z naszych środowisk [Premium VPS](/pl/vps/premium/) lub wysoko efektywnych kosztowo [Budget VPS](/pl/vps/budget/), zainstaluj [bezpłatny SSL przez Certbot](/pl/guides/certyfikat-ssl-letsencrypt-ubuntu/) i zbuduj ostateczne doświadczenie WWW.

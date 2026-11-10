@@ -287,4 +287,4 @@ sudo systemctl reload apache2
 
 Apache should now be actively serving your domain name. So long as your DNS records for `your_domain.com` are pointed to your VPS IP address, you can type it into your browser to see your success string.
 
-For a reliable environment supporting rapid project prototyping with Apache web layers, checkout our high-performance line of affordable [Budget VPS](/budget-vps/) environments today.
+For a reliable environment supporting rapid project prototyping with Apache web layers, checkout our high-performance line of affordable [Budget VPS](/vps/budget/) environments today.

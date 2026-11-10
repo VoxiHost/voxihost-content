@@ -112,4 +112,4 @@ Use promo code **<span class="text-amber-300 font-bold text-xl uppercase trackin
 
 With VoxiShield, enterprise-grade security is a standard, not a luxury. No surprise bills, no hidden bandwidth limits; only raw, high-performance protection that grows with your needs.
 
-Ready to secure your infrastructure? Deploy a new [Budget VPS](/budget-vps/) or high-performance [Premium VPS](/premium-vps/) today, and manage your network policies through the [VoxiShield Smart Firewall](/shield/) interface inside the VoxiHost dashboard right away!
+Ready to secure your infrastructure? Deploy a new [Budget VPS](/vps/budget/) or high-performance [Premium VPS](/vps/premium/) today, and manage your network policies through the [VoxiShield Smart Firewall](/shield/) interface inside the VoxiHost dashboard right away!

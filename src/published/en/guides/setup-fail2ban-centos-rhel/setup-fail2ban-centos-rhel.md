@@ -266,4 +266,4 @@ sudo ausearch -m avc -ts recent | grep fail2ban
 
 Most common issues are solved by installing the `fail2ban` package through the official repos (which includes correct SELinux contexts) rather than manual installation.
 
-If you want a clean RHEL-based server to test this setup on, our [Budget VPS](/budget-vps/) plans let you spin up, configure, and experiment without touching anything important.
+If you want a clean RHEL-based server to test this setup on, our [Budget VPS](/vps/budget/) plans let you spin up, configure, and experiment without touching anything important.

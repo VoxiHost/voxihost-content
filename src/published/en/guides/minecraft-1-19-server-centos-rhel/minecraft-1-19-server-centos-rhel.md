@@ -1,6 +1,6 @@
 ---
 image: /assets/images/blog/en/minecraft-1-19-server-centos-rhel/og-image.png
-title: How to Setup a Minecraft Vanilla 1.19.2 Server (Java 17) on AlmaLinux, CentOS, Rocky Linux & Fedora
+title: Minecraft 1.19.2 Server on AlmaLinux, CentOS & Rocky
 description: A detailed tutorial on setting up a Minecraft 1.19.2 Vanilla server on AlmaLinux, CentOS, or Rocky Linux using the Java 17 environment.
 date: '2026-04-23'
 updated: '2026-06-02'
@@ -70,7 +70,7 @@ The 1.18 to 1.20.4 era of Minecraft relies on **Java 17**. This guide covers the
 
 ### Prerequisites
 
-* A VPS running **AlmaLinux, Rocky Linux, or CentOS** (Available on [Premium VPS](/premium-vps/)).
+* A VPS running **AlmaLinux, Rocky Linux, or CentOS** (Available on [Premium VPS](/vps/premium/)).
 * Sudo access for initial Java installation.
 * High-speed SSD/NVMe storage (all <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> nodes use NVMe).
 
@@ -238,4 +238,4 @@ Now that your server is running, don't forget to:
 3. **Transfer Files**: Want to upload an existing world? Use SFTP as explained in our [FileZilla Tutorial](/guides/transfer-files-vps-sftp-filezilla/).
 4. **Hardening & Monitoring**: Protect your VPS further by [securing SSH](/guides/secure-ssh-centos-rhel/) and [setting up Fail2ban](/guides/setup-fail2ban-centos-rhel/). You can also [monitor your system resources](/guides/monitor-vps-htop-df-free/) using htop.
 
-Your server is ready! For low-latency hosting, explore our [<span class="text-white">Voxi</span><span class="text-amber-300">Host</span> Budget VPS](/budget-vps/) options.
+Your server is ready! For low-latency hosting, explore our [<span class="text-white">Voxi</span><span class="text-amber-300">Host</span> Budget VPS](/vps/budget/) options.

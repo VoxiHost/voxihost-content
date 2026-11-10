@@ -164,4 +164,4 @@ sudo du -h /var/log/* | sort -h
 
 These commands are lifesavers for quickly debugging a slow server over SSH. If you want a beautiful, historical web dashboard instead of terminal tools, check out our guide on [How to Set Up Netdata](/guides/setup-netdata-vps/). If you find that your CPU is constantly hitting 100% or your memory `available` is consistently at 0, your project has officially outgrown your current hardware.
 
-When it's time to scale, check out our highly scalable [Premium VPS](/premium-vps/) or reliable [Budget VPS](/budget-vps/) options to instantly double your resources and keep your applications running smoothly.
+When it's time to scale, check out our highly scalable [Premium VPS](/vps/premium/) or reliable [Budget VPS](/vps/budget/) options to instantly double your resources and keep your applications running smoothly.

@@ -1,0 +1,92 @@
+{
+  "guides": [
+    {
+      "slug": "docker",
+      "icon": "fa-brands fa-docker",
+      "title": "Docker i kontenery",
+      "description": "Instalacja Dockera, stosy Compose i porównanie środowisk kontenerowych.",
+      "intro": "Wszystko, co potrzebne do uruchamiania kontenerów na VPS: instalacja Docker Engine z oficjalnego repozytorium, konfiguracja Compose i wybór między Dockerem a Podmanem."
+    },
+    {
+      "slug": "web-servers",
+      "icon": "fa-solid fa-globe",
+      "title": "Serwery WWW i stosy",
+      "description": "Nginx, Apache, LAMP, LEMP, PHP-FPM, certyfikaty TLS i porównania serwerów.",
+      "intro": "Wybierz serwer WWW, zainstaluj pełny stos i postaw przed nim ważny certyfikat TLS. Znajdziesz tu też uczciwe porównania: Nginx kontra Apache oraz LiteSpeed kontra Caddy."
+    },
+    {
+      "slug": "minecraft",
+      "icon": "fa-solid fa-gamepad",
+      "title": "Serwery Minecraft",
+      "description": "Konfiguracja serwera Vanilla Java od 1.8.8 do 1.21 na Debianie/Ubuntu i systemach z rodziny RHEL.",
+      "intro": "Poradniki dla konkretnych wersji serwera Minecraft Java: konfiguracja JVM, usługi systemd, porty firewalla i linki do pobrania każdego wydania."
+    },
+    {
+      "slug": "security",
+      "icon": "fa-solid fa-shield-halved",
+      "title": "Bezpieczeństwo serwera",
+      "description": "Utwardzanie SSH, fail2ban, firewalle, użytkownicy sudo i ochrona przed brute force.",
+      "intro": "Podstawa, której potrzebuje każdy nowy serwer: użytkownik sudo, SSH tylko z klucza, firewall hosta i fail2ban. Zrób to, zanim otworzysz cokolwiek na świat."
+    },
+    {
+      "slug": "monitoring",
+      "icon": "fa-solid fa-chart-line",
+      "title": "Monitoring i eksploatacja",
+      "description": "Monitorowanie zasobów z htop, Netdata i Uptime Kuma.",
+      "intro": "Wiedz, co robi twój serwer, zanim dowiedzą się o tym użytkownicy. Szybkie sprawdzenia w CLI, metryki długoterminowe w Netdata i alerty dostępności w Uptime Kuma."
+    },
+    {
+      "slug": "vpn",
+      "icon": "fa-solid fa-network-wired",
+      "title": "VPN i sieć prywatna",
+      "description": "Konfiguracja WireGuard i porównanie WireGuard vs OpenVPN.",
+      "intro": "Postaw własny VPN albo połącz serwery w prywatną sieć. WireGuard jest domyślnym wyborem dla większości zastosowań: mniej konfiguracji i wyższa przepustowość."
+    },
+    {
+      "slug": "self-hosted-apps",
+      "icon": "fa-solid fa-box",
+      "title": "Aplikacje self-hosted",
+      "description": "Nextcloud, WordPress, Portainer, Nginx Proxy Manager, TeamSpeak i inne.",
+      "intro": "Wdróż aplikacje, które naprawdę działają na VPS: prywatną chmurę, stronę WordPress, panel kontenerów, reverse proxy i serwer głosowy."
+    },
+    {
+      "slug": "system-admin",
+      "icon": "fa-solid fa-screwdriver-wrench",
+      "title": "Administracja systemem",
+      "description": "Aktualizacje systemu, mirrory pakietów, transfer plików, środowiska uruchomieniowe i sterowniki GPU.",
+      "intro": "Rutynowa praca, która utrzymuje serwer w dobrej formie: aktualizacje systemu, szybki mirror pakietów, bezpieczny transfer plików oraz instalacja środowisk i sterowników."
+    }
+  ],
+  "docs": [
+    {
+      "id": "start",
+      "icon": "fa-solid fa-rocket",
+      "title": "Pierwsze kroki",
+      "description": "Od pustego konta do działającego serwera w kilka minut."
+    },
+    {
+      "id": "platform",
+      "icon": "fa-solid fa-server",
+      "title": "Serwery i VPS",
+      "description": "Wdrażaj, łącz się i zarządzaj swoimi instancjami VPS."
+    },
+    {
+      "id": "security",
+      "icon": "fa-solid fa-shield-halved",
+      "title": "Bezpieczeństwo",
+      "description": "Ochrona DDoS i reguły firewalla pod Twoją kontrolą."
+    },
+    {
+      "id": "billing",
+      "icon": "fa-solid fa-credit-card",
+      "title": "Płatności i rozliczenia",
+      "description": "Kredyty, doładowania, dokumenty, rozliczenie godzinowe i partnerzy."
+    },
+    {
+      "id": "account",
+      "icon": "fa-solid fa-user-shield",
+      "title": "Konto i pomoc",
+      "description": "Logowanie, profil, weryfikacja i zgłoszenia do supportu."
+    }
+  ]
+}

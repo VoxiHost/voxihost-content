@@ -188,4 +188,4 @@ docker run hello-world
 
 Jeśli to działa, gratulacje! Twój **VPS** jest w pełni wyposażony do wdrażania nieskończonej liczby wstępnie spakowanych aplikacji kontenerowych dostępnych na Docker Hub natywnie i bezpiecznie.
 
-Dla niezawodnego środowiska wspierającego szybkie prototypowanie projektów z Docker, sprawdź naszą wysokowydajną linię przystępnych środowisk [Budget VPS](/pl/budget-vps/) już dziś.
+Dla niezawodnego środowiska wspierającego szybkie prototypowanie projektów z Docker, sprawdź naszą wysokowydajną linię przystępnych środowisk [Budget VPS](/pl/vps/budget/) już dziś.

@@ -157,4 +157,4 @@ ssh yourusername@your-server-ip
 
 Teraz gdy masz użytkownika sudo, twoim następnym priorytetem bezpieczeństwa powinno być skonfigurowanie uwierzytelniania kluczem SSH i [całkowite wyłączenie bezpośredniego logowania root](/pl/guides/jak-zabezpieczyc-ssh-centos-rhel/).
 
-Jeśli jesteś gotowy wdrożyć swoją następną aplikację w środowisku wysokiej wydajności, uruchom [Budget VPS](/pl/budget-vps/), zabezpiecz swoje konta użytkowników i rozpocznij hosting.
+Jeśli jesteś gotowy wdrożyć swoją następną aplikację w środowisku wysokiej wydajności, uruchom [Budget VPS](/pl/vps/budget/), zabezpiecz swoje konta użytkowników i rozpocznij hosting.

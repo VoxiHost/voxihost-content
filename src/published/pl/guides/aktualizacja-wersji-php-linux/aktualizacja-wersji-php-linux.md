@@ -229,4 +229,4 @@ Za każdym razem gdy edytujesz plik `fpm/php.ini`, musisz zrestartować tę konk
 sudo systemctl restart php8.3-fpm
 ```
 
-Hostowanie wielu aplikacji z drastycznie różnymi wymaganiami dziedzictwa i nowoczesności PHP wymaga serwera z RAM i CPU aby płynnie obsługiwać odmienne pule demonów FPM. Chwyć masowo niezawodny [Premium VPS](/pl/premium-vps/), zainstaluj tyle wersji PHP ilu wymagają twoi klienci i uruchamiaj je jednocześnie bez wycierania potu.
+Hostowanie wielu aplikacji z drastycznie różnymi wymaganiami dziedzictwa i nowoczesności PHP wymaga serwera z RAM i CPU aby płynnie obsługiwać odmienne pule demonów FPM. Chwyć masowo niezawodny [Premium VPS](/pl/vps/premium/), zainstaluj tyle wersji PHP ilu wymagają twoi klienci i uruchamiaj je jednocześnie bez wycierania potu.

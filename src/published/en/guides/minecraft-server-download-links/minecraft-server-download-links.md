@@ -138,4 +138,4 @@ Legendary stability used for modpacks and classic PvP up to 1.16.5.
 
 ## Found the version you were looking for?
 
-Now is the perfect time to grab a space to host your server! Check out our [Budget VPS](/budget-vps/) or [Premium VPS](/premium-vps/) plans.
+Now is the perfect time to grab a space to host your server! Check out our [Budget VPS](/vps/budget/) or [Premium VPS](/vps/premium/) plans.

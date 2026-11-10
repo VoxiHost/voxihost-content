@@ -48,7 +48,7 @@ Czy kiedykolwiek obudziłeś się rano, tylko po to, by odkryć, że Twój serwe
 
 **Uptime Kuma** to potężne narzędzie o otwartym kodzie źródłowym, które potrafi monitorować strony WWW, serwery gier, porty TCP i usługi DNS. W tym szybkim poradniku pokażemy, jak w 15 minut zainstalować je na własnym serwerze za pomocą Dockera!
 
-> **Wskazówka:** Uptime Kuma nie zajmuje wiele zasobów. Do tego zadania spokojnie wystarczy najtańszy plan z naszej oferty [Budget VPS](/pl/budget-vps/) (np. oparty na Ubuntu 22.04).
+> **Wskazówka:** Uptime Kuma nie zajmuje wiele zasobów. Do tego zadania spokojnie wystarczy najtańszy plan z naszej oferty [Budget VPS](/pl/vps/budget/) (np. oparty na Ubuntu 22.04).
 
 ---
 
@@ -165,4 +165,4 @@ Teraz przy tworzeniu lub edycji jakiegokolwiek monitora (Krok 3) po prawej stron
 
 Uruchomienie własnego systemu monitorowania to zaledwie kilkanaście minut pracy. Dzięki Uptime Kumie zachowujesz pełną prywatność logów i nie ponosisz opłat abonamentowych za usługi premium (jak krótkie, 1-minutowe interwały sprawdzania, które w rozwiązaniach SaaS bywają bardzo drogie).
 
-Uptime Kuma zainstalowana na stabilnym serwerze [Budget VPS](/pl/budget-vps/) od <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> to gwarancja, że będziesz wiedział o awarii swoich głównych projektów zanim zauważą ją Twoi klienci lub gracze!
+Uptime Kuma zainstalowana na stabilnym serwerze [Budget VPS](/pl/vps/budget/) od <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> to gwarancja, że będziesz wiedział o awarii swoich głównych projektów zanim zauważą ją Twoi klienci lub gracze!

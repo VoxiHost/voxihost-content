@@ -180,4 +180,4 @@ UFW poprosi o potwierdzenie, a potem reguła zniknie. Pamiętaj że usunięcie l
 
 UFW jest idealne dla 99% typowych konfiguracji serwerów. Czysto obsługuje odrzucanie złośliwego tła szumu podczas wystawiania dokładnie tego co zamierzasz wystawić. Jeśli połączysz to z [fail2ban](/pl/guides/konfiguracja-fail2ban-ubuntu-debian/), twój serwer nie tylko odrzuci niechciany ruch, ale aktywnie zbanuje IP które próbują nadużywać twoich otwartych portów.
 
-Jeśli nie masz serwera do ćwiczeń, nasz [Budget VPS](/pl/budget-vps/) jest idealnym, niskokosztowym środowiskiem aby uruchomić, skonfigurować zaporę, psuć rzeczy i zaczynać całkowicie od nowa bez żadnych problemów.
+Jeśli nie masz serwera do ćwiczeń, nasz [Budget VPS](/pl/vps/budget/) jest idealnym, niskokosztowym środowiskiem aby uruchomić, skonfigurować zaporę, psuć rzeczy i zaczynać całkowicie od nowa bez żadnych problemów.

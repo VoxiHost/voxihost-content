@@ -58,7 +58,7 @@ TeamSpeak 3 to od wielu lat jeden z najbardziej niezawodnych i stabilnych komuni
 
 Z tego poradnika dowiesz się, jak prawidłowo zainstalować i zabezpieczyć własny serwer TeamSpeak 3 na systemie Ubuntu lub Debian.
 
-> **Wymagania wstępne:** Przed rozpoczęciem upewnij się, że posiadasz [serwer VPS z systemem Ubuntu lub Debian](/pl/premium-vps/), dostęp SSH oraz użytkownika z uprawnieniami `sudo`.
+> **Wymagania wstępne:** Przed rozpoczęciem upewnij się, że posiadasz [serwer VPS z systemem Ubuntu lub Debian](/pl/vps/premium/), dostęp SSH oraz użytkownika z uprawnieniami `sudo`.
 
 ## Krok 1: Aktualizacja systemu
 
@@ -197,4 +197,4 @@ Uruchom teraz swój program TeamSpeak 3 na komputerze i połącz się ze swoim s
 
 ### Kolejne kroki
 * Jeśli posiadasz aktywny firewall (zaporę sieciową), musisz otworzyć dla TeamSpeaka porty. Sprawdź nasz poradnik, [jak skonfigurować UFW](/pl/guides/konfiguracja-ufw-ubuntu-debian/). TeamSpeak wymaga portów `9987/udp` (Głos), `10011/tcp` (ServerQuery) oraz `30033/tcp` (Transfer plików).
-* Szukasz serwera, który zniesie duże zloty graczy i uchroni Cię przed atakami? Sprawdź [tani hosting VPS na godziny](/pl/budget-vps/), a jeśli grasz profesjonalnie – postaw na niezawodność z [VoxiShield](/pl/shield/) i wybierz serwer w ofercie [Premium VPS](/pl/premium-vps/).
+* Szukasz serwera, który zniesie duże zloty graczy i uchroni Cię przed atakami? Sprawdź [tani hosting VPS na godziny](/pl/vps/budget/), a jeśli grasz profesjonalnie - postaw na niezawodność z [VoxiShield](/pl/shield/) i wybierz serwer w ofercie [Premium VPS](/pl/vps/premium/).

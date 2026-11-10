@@ -205,7 +205,7 @@ main() {
 main
 ```
 
-> **Uwaga:** W powyższym skrypcie celowo skróciliśmy listę mirrorów dla przejrzystości kodu, skupiając się na głównych serwerach europejskich i amerykańskich (idealnych dla lokalizacji [Premium VPS](/pl/premium-vps/)). Możesz łatwo dopisać do tablicy `mirrors` dodatkowe regionalne adresy URL, jeśli Twój serwer znajduje się w innej części świata.
+> **Uwaga:** W powyższym skrypcie celowo skróciliśmy listę mirrorów dla przejrzystości kodu, skupiając się na głównych serwerach europejskich i amerykańskich (idealnych dla lokalizacji [Premium VPS](/pl/vps/premium/)). Możesz łatwo dopisać do tablicy `mirrors` dodatkowe regionalne adresy URL, jeśli Twój serwer znajduje się w innej części świata.
 
 {% image "/assets/images/blog/pl/najszybszy-serwer-lustrzany-apt-ubuntu/H1.png", "Terminal pokazujący uruchomienie skryptu sprawdzającego opóźnienia serwerów lustrzanych", "(max-width: 768px) 100vw, 800px" %}
 
@@ -254,4 +254,4 @@ Optymalizacja źródeł APT zakończona pomyślnie!
 
 Twój serwer pobiera teraz pakiety z najszybszego regionalnego serwera lustrzanego, co znacząco przyspieszy instalowanie programów oraz codzienne aktualizacje bezpieczeństwa.
 
-Szukasz wydajnego hostingu w Europie? Uruchom serwer <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Budget VPS](/pl/budget-vps/) już dzisiaj i przekonaj się, jak szybko działa połączenie pamięci NVMe z optymalną ścieżką routingu sieciowego.
+Szukasz wydajnego hostingu w Europie? Uruchom serwer <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Budget VPS](/pl/vps/budget/) już dzisiaj i przekonaj się, jak szybko działa połączenie pamięci NVMe z optymalną ścieżką routingu sieciowego.

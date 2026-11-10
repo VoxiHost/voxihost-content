@@ -176,4 +176,4 @@ Regularnie aktualizowane serwery również zawodzą w bardziej przewidywalny spo
 
 Dla całkowicie utwardzonego serwera, aktualizacje pakietów to tylko krok pierwszy. Rozważ skonfigurowanie [Zapory UFW](/pl/guides/konfiguracja-ufw-ubuntu-debian/) i [fail2ban](/pl/guides/konfiguracja-fail2ban-ubuntu-debian/) aby aktywnie odrzucać złośliwe tło.
 
-Jeśli chcesz czystego VPS do ćwiczenia tego, nasze plany [Budget VPS](/pl/budget-vps/) są wystarczająco tanie że możesz zrobić migawkę, eksperymentować i zniszczyć to bez żadnego stresu.
+Jeśli chcesz czystego VPS do ćwiczenia tego, nasze plany [Budget VPS](/pl/vps/budget/) są wystarczająco tanie że możesz zrobić migawkę, eksperymentować i zniszczyć to bez żadnego stresu.

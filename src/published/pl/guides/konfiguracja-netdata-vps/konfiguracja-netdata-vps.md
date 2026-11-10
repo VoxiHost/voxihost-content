@@ -131,4 +131,4 @@ Jeśli uruchamiasz serwer produkcyjny, jest wysoce zalecane aby ostatecznie powi
 
 Jednakże dla środowiska testowego lub deweloperskiego, pozostawienie portu otwartego jest w porządku do szybkiego monitorowania.
 
-Jeśli chcesz zanurzyć w złożone metryki wydajności, wdróż intensywne aplikacje, zainstaluj Netdata na niezwykle wydajnym [Premium VPS](/pl/premium-vps/), uruchom swoje kontenery Docker i obserwuj jak wykresy tańczą w idealnej harmonii.
+Jeśli chcesz zanurzyć w złożone metryki wydajności, wdróż intensywne aplikacje, zainstaluj Netdata na niezwykle wydajnym [Premium VPS](/pl/vps/premium/), uruchom swoje kontenery Docker i obserwuj jak wykresy tańczą w idealnej harmonii.

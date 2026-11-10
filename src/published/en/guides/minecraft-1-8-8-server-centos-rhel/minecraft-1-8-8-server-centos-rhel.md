@@ -1,6 +1,6 @@
 ---
 image: /assets/images/blog/en/minecraft-1-8-8-server-centos-rhel/og-image.png
-title: How to Setup a Classic Minecraft 1.8.8 Server (Java 8) on AlmaLinux, CentOS, Rocky Linux & Fedora
+title: Minecraft 1.8.8 Server on AlmaLinux, CentOS & Rocky
 description: A legacy setup guide for Minecraft 1.8.8 servers, perfect for nostalgic PvP and classic Vanilla gameplay using Java 8 on RHEL distributions.
 date: '2026-04-23'
 updated: '2026-06-02'
@@ -72,14 +72,14 @@ Classic Minecraft versions from the **1.7.10 through 1.16.5** era require **Java
 ### Supported Versions
 This Java 8 guide is fully compatible with:
 * **1.16 Era:** 1.16.5, 1.16.4, 1.16.3, 1.16.2, 1.16.1, 1.16
-* **1.13 – 1.15:** 1.15.2, 1.15.1, 1.15, 1.14.4, 1.13.2
-* **Classic (1.7 – 1.12):** 1.12.2, 1.11.2, 1.10.2, 1.9.4, 1.8.9, 1.8.8, 1.7.10
+* **1.13-1.15:** 1.15.2, 1.15.1, 1.15, 1.14.4, 1.13.2
+* **Classic (1.7-1.12):** 1.12.2, 1.11.2, 1.10.2, 1.9.4, 1.8.9, 1.8.8, 1.7.10
 
 To visit our [Minecraft Vanilla Server Download Links Archive](/guides/minecraft-server-download-links/), check for the exact link for your version.
 
 ## Prerequisites
 
-* A VPS running **AlmaLinux, Rocky Linux, or CentOS** (Available on [Premium VPS](/premium-vps/)).
+* A VPS running **AlmaLinux, Rocky Linux, or CentOS** (Available on [Premium VPS](/vps/premium/)).
 * Root or sudo access via SSH (for installing Java).
 * **A restricted non-root user** to run the server software safely.
 
@@ -249,4 +249,4 @@ Now that your server is running, don't forget to:
 3. **Transfer Files**: Want to upload an existing world? Use SFTP as explained in our [FileZilla Tutorial](/guides/transfer-files-vps-sftp-filezilla/).
 4. **Hardening & Monitoring**: Protect your VPS further by [securing SSH](/guides/secure-ssh-centos-rhel/) and [setting up Fail2ban](/guides/setup-fail2ban-centos-rhel/). You can also [monitor your system resources](/guides/monitor-vps-htop-df-free/) using htop.
 
-Experience high TPS on our **[Budget VPS](/budget-vps/)** plans!
+Experience high TPS on our **[Budget VPS](/vps/budget/)** plans!

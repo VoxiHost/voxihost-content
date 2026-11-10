@@ -238,7 +238,7 @@ sudo find /etc -name "*.rpmnew" -o -name "*.rpmsave" 2>/dev/null
 
 Sprawdź te po każdej znaczącej aktualizacji. Scal co ważne, usuń co niepotrzebne.
 
-Fedora jest solidnym systemem operacyjnym serwera jeśli utrzymujesz go aktualnym. Sześciomiesięczny cykl wydawania brzmi szybko, ale ścieżka aktualizacji system-upgrade jest gładka i rzadko powoduje niespodzianki. Jeśli chcesz czystego VPS do przetestowania aktualizacji Fedory bez ryzykowania swojej produkcyjnej maszyny, nasze plany [Budget VPS](/pl/budget-vps/) to tani sposób na przejście przez cały proces.
+Fedora jest solidnym systemem operacyjnym serwera jeśli utrzymujesz go aktualnym. Sześciomiesięczny cykl wydawania brzmi szybko, ale ścieżka aktualizacji system-upgrade jest gładka i rzadko powoduje niespodzianki. Jeśli chcesz czystego VPS do przetestowania aktualizacji Fedory bez ryzykowania swojej produkcyjnej maszyny, nasze plany [Budget VPS](/pl/vps/budget/) to tani sposób na przejście przez cały proces.
 
 ## Podsumowanie
 

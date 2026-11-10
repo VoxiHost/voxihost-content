@@ -177,4 +177,4 @@ Because WireGuard is already installed, the script transforms cleanly into a man
 
 Press `1` to instantly generate another `.conf` file and QR code. 
 
-If you want a safe playground to test your WireGuard configuration, **[Budget VPS](/budget-vps/)** plans from **<span class="text-white">Voxi</span><span class="text-amber-300">Host</span>** are a perfect starting point. You can deploy a fresh instance in seconds and start building your private network right away.
+If you want a safe playground to test your WireGuard configuration, **[Budget VPS](/vps/budget/)** plans from **<span class="text-white">Voxi</span><span class="text-amber-300">Host</span>** are a perfect starting point. You can deploy a fresh instance in seconds and start building your private network right away.

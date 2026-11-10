@@ -228,4 +228,4 @@ On a properly hardened server you should see nothing,  or just a handful of atte
 
 With SSH key auth enabled and password auth disabled, brute-force attacks against SSH are already impossible. fail2ban becomes less critical for SSH itself. That said, it's still useful for protecting other services like Nginx and Apache, and running it alongside these settings adds a reasonable layer of defense in depth. See our [fail2ban setup guide](/guides/setup-fail2ban-ubuntu-debian/) if you want to add it.
 
-If you want a safe place to practice this hardening process without risking a production server, our **[Budget VPS](/budget-vps/)** plans are an affordable sandbox to lock down, break, and start fresh as many times as you need.
+If you want a safe place to practice this hardening process without risking a production server, our **[Budget VPS](/vps/budget/)** plans are an affordable sandbox to lock down, break, and start fresh as many times as you need.

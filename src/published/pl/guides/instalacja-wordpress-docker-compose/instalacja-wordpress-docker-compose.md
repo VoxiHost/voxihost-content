@@ -151,4 +151,4 @@ Twoja strona na WordPressie działa teraz w kontenerach Docker na Twoim VPS-ie. 
 
 W następnym kroku zdecydowanie zalecamy umieszczenie strony za Nginx Proxy Manager, aby przypisać do niej własną domenę i włączyć bezpłatny HTTPS przez Let's Encrypt. Sprawdź nasz poradnik: [jak skonfigurować Nginx Proxy Manager na VPS](/pl/guides/konfiguracja-nginx-proxy-manager-vps/).
 
-Jeśli potrzebujesz niezawodnego serwera VPS dla swojej strony WordPress, sprawdź nasze [plany Premium VPS](/pl/premium-vps/) lub [Budget VPS](/pl/budget-vps/), które oferują szybkie dyski NVMe SSD i natychmiastowe wdrożenie.
+Jeśli potrzebujesz niezawodnego serwera VPS dla swojej strony WordPress, sprawdź nasze [plany Premium VPS](/pl/vps/premium/) lub [Budget VPS](/pl/vps/budget/), które oferują szybkie dyski NVMe SSD i natychmiastowe wdrożenie.

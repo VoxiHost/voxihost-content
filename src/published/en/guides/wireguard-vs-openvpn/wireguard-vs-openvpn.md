@@ -81,7 +81,7 @@ Measurements were taken using `iperf3` (for throughput) and standard `ping` (for
 ### Result Analysis: Why WireGuard Outperforms OpenVPN
 
 *   **Throughput:** WireGuard transfers data almost at the line speed limit (**875 Mbps**), using only about 20% of a single vCPU. OpenVPN over UDP maxes out at **320 Mbps**, completely saturating the server's CPU (100% load). This is because OpenVPN runs in user space, which requires constant context switching to copy network packets back and forth between kernel and user space. WireGuard, on the other hand, runs entirely in the kernel space.
-*   **Latency (Ping):** The latency overhead of WireGuard is practically negligible (an increase of just 0.2 ms). OpenVPN adds 3–6 ms of overhead due to the time required to process packets in user space.
+*   **Latency (Ping):** The latency overhead of WireGuard is practically negligible (an increase of just 0.2 ms). OpenVPN adds 3-6 ms of overhead due to the time required to process packets in user space.
    
 {% image "/assets/images/blog/en/wireguard-vs-openvpn/architecture.png", "A visual comparison of OpenVPN's user-space architecture versus WireGuard's kernel-space execution", "(max-width: 768px) 100vw, 800px" %}
 

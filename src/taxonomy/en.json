@@ -1,0 +1,92 @@
+{
+  "guides": [
+    {
+      "slug": "docker",
+      "icon": "fa-brands fa-docker",
+      "title": "Docker & containers",
+      "description": "Install Docker, run Compose stacks and compare container runtimes.",
+      "intro": "Everything needed to run containers on a VPS: installing Docker Engine from the official repository, wiring up Compose, and choosing between Docker and Podman."
+    },
+    {
+      "slug": "web-servers",
+      "icon": "fa-solid fa-globe",
+      "title": "Web servers & stacks",
+      "description": "Nginx, Apache, LAMP, LEMP, PHP-FPM, TLS certificates and server comparisons.",
+      "intro": "Pick a web server, install a full stack and put a valid TLS certificate in front of it. Includes the honest comparisons: Nginx versus Apache, LiteSpeed versus Caddy."
+    },
+    {
+      "slug": "minecraft",
+      "icon": "fa-solid fa-gamepad",
+      "title": "Minecraft servers",
+      "description": "Vanilla Java server setup for 1.8.8 through 1.21 on Debian/Ubuntu and RHEL-family systems.",
+      "intro": "Version-specific guides for running a Minecraft Java server: JVM setup, systemd services, firewall ports and the download links for each release."
+    },
+    {
+      "slug": "security",
+      "icon": "fa-solid fa-shield-halved",
+      "title": "Server security",
+      "description": "SSH hardening, fail2ban, firewalls, sudo users and brute-force protection.",
+      "intro": "The baseline every fresh server needs: a non-root sudo user, key-only SSH, a host firewall and fail2ban. Do these before opening anything to the internet."
+    },
+    {
+      "slug": "monitoring",
+      "icon": "fa-solid fa-chart-line",
+      "title": "Monitoring & operations",
+      "description": "Resource monitoring with htop, Netdata and Uptime Kuma.",
+      "intro": "Know what your server is doing before your users tell you. Lightweight CLI checks, long-term metrics with Netdata, and uptime alerts with Uptime Kuma."
+    },
+    {
+      "slug": "vpn",
+      "icon": "fa-solid fa-network-wired",
+      "title": "VPN & private networking",
+      "description": "WireGuard setup and a WireGuard vs OpenVPN comparison.",
+      "intro": "Run your own VPN or connect servers into a private network. WireGuard is the default choice for most workloads: fewer lines of configuration and better throughput."
+    },
+    {
+      "slug": "self-hosted-apps",
+      "icon": "fa-solid fa-box",
+      "title": "Self-hosted apps",
+      "description": "Nextcloud, WordPress, Portainer, Nginx Proxy Manager, TeamSpeak and more.",
+      "intro": "Deploy the applications people actually run on a VPS: a private cloud, a WordPress site, a container dashboard, a reverse proxy and a voice server."
+    },
+    {
+      "slug": "system-admin",
+      "icon": "fa-solid fa-screwdriver-wrench",
+      "title": "System administration",
+      "description": "System updates, package mirrors, file transfer, runtimes and GPU drivers.",
+      "intro": "The routine work that keeps a server healthy: patching the OS, picking a fast package mirror, moving files safely and installing runtimes or drivers."
+    }
+  ],
+  "docs": [
+    {
+      "id": "start",
+      "icon": "fa-solid fa-rocket",
+      "title": "Getting started",
+      "description": "From an empty account to a running server in a few minutes."
+    },
+    {
+      "id": "platform",
+      "icon": "fa-solid fa-server",
+      "title": "Servers & VPS",
+      "description": "Deploy, connect to and manage all of your VPS instances."
+    },
+    {
+      "id": "security",
+      "icon": "fa-solid fa-shield-halved",
+      "title": "Security",
+      "description": "DDoS protection and the firewall rules you control."
+    },
+    {
+      "id": "billing",
+      "icon": "fa-solid fa-credit-card",
+      "title": "Billing & payments",
+      "description": "Credits, top-ups, documents, hourly billing and affiliates."
+    },
+    {
+      "id": "account",
+      "icon": "fa-solid fa-user-shield",
+      "title": "Account & support",
+      "description": "Sign-in, profile, verification and support tickets."
+    }
+  ]
+}

@@ -187,4 +187,4 @@ Otwórz przeglądarkę i nawiguj do: `https://twoja_domena.com`
 
 Powinieneś zobaczyć ikonę kłódki obok paska adresu URL, co potwierdza że Twoja strona jest w pełni zabezpieczona!
 
-Gratulacje! Pomyślnie zabezpieczyłeś swój serwer WWW za pomocą bezpłatnych, enterprise'owych certyfikatów SSL które automatycznie się odnawiają. Czy masz ciężki sklep e-commerce, forum czy blog o dużym ruchu gotowy do uruchomienia? Wdróż swoje bezpieczne aplikacje na niezwykle wydajnym [Premium VPS](/pl/premium-vps/), zainstaluj certyfikaty SSL i uruchom swoją ostateczną stronę do świata.
+Gratulacje! Pomyślnie zabezpieczyłeś swój serwer WWW za pomocą bezpłatnych, enterprise'owych certyfikatów SSL które automatycznie się odnawiają. Czy masz ciężki sklep e-commerce, forum czy blog o dużym ruchu gotowy do uruchomienia? Wdróż swoje bezpieczne aplikacje na niezwykle wydajnym [Premium VPS](/pl/vps/premium/), zainstaluj certyfikaty SSL i uruchom swoją ostateczną stronę do świata.

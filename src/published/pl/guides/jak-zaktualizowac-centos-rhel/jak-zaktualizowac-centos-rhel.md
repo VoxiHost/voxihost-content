@@ -200,4 +200,4 @@ sudo find /etc -name "*.rpmnew" -o -name "*.rpmsave"
 
 Aktualizacja serwera Linux to kluczowy element utrzymania bezpiecznego i stabilnego środowiska. Używając `dnf` z odpowiednimi flagami, możesz pewnie zarządzać tym procesem i mieć pewność że system jest zawsze chroniony najnowszymi poprawkami bezpieczeństwa.
 
-Jeśli szukasz niezawodnego środowiska do testowania, nasze plany [Budget VPS](/pl/budget-vps/) to idealne, tanie serwery do eksperymentowania bez ryzyka.
+Jeśli szukasz niezawodnego środowiska do testowania, nasze plany [Budget VPS](/pl/vps/budget/) to idealne, tanie serwery do eksperymentowania bez ryzyka.

@@ -135,7 +135,7 @@ Wszystko jest teraz skonfigurowane dla Twojego środowiska programistycznego. Z 
 
 ## Podsumowanie
 
-Pomyślnie skonfigurowałeś stabilne środowisko Node.js na swoim serwerze z systemem Linux. Korzystając z oficjalnego repozytorium NodeSource zamiast domyślnych pakietów dystrybucyjnych, zapewniasz swojemu serwerowi <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [VPS](/pl/vps/) dostęp do terminowych poprawek bezpieczeństwa oraz nowoczesnych funkcji JavaScript. Taka konfiguracja gwarantuje stabilność wymaganą w środowiskach produkcyjnych — niezależnie od tego, czy uruchamiasz lekkie API na [Budget VPS](/pl/vps/budget/), czy aplikację o dużym natężeniu ruchu na [Premium VPS](/pl/vps/premium/).
+Pomyślnie skonfigurowałeś stabilne środowisko Node.js na swoim serwerze z systemem Linux. Korzystając z oficjalnego repozytorium NodeSource zamiast domyślnych pakietów dystrybucyjnych, zapewniasz swojemu serwerowi <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [VPS](/pl/vps/) dostęp do terminowych poprawek bezpieczeństwa oraz nowoczesnych funkcji JavaScript. Taka konfiguracja gwarantuje stabilność wymaganą w środowiskach produkcyjnych - niezależnie od tego, czy uruchamiasz lekkie API na [Budget VPS](/pl/vps/budget/), czy aplikację o dużym natężeniu ruchu na [Premium VPS](/pl/vps/premium/).
 
 Pamiętaj, że aktualizacja środowiska uruchomieniowego jest kluczowa zarówno dla wydajności, jak i bezpieczeństwa. Gdy pojawi się nowa wersja LTS, możesz zaktualizować swoje środowisko, odświeżając listy pakietów i aktualizując plik binarny:
 

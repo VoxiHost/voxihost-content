@@ -177,4 +177,4 @@ Ponieważ WireGuard jest już zainstalowany, skrypt zmieni się w przejrzyste me
 
 Wybierz opcję `1`, aby błyskawicznie wygenerować kolejny plik `.conf` i kod QR.
 
-Jeśli szukasz stabilnego środowiska do testowania konfiguracji WireGuard, plany **[Budget VPS](/pl/budget-vps/)** od **<span class="text-white">Voxi</span><span class="text-amber-300">Host</span>** są idealnym punktem wyjścia. Możesz uruchomić nową instancję w kilka sekund i od razu zacząć budować swoją prywatną sieć.
+Jeśli szukasz stabilnego środowiska do testowania konfiguracji WireGuard, plany **[Budget VPS](/pl/vps/budget/)** od **<span class="text-white">Voxi</span><span class="text-amber-300">Host</span>** są idealnym punktem wyjścia. Możesz uruchomić nową instancję w kilka sekund i od razu zacząć budować swoją prywatną sieć.

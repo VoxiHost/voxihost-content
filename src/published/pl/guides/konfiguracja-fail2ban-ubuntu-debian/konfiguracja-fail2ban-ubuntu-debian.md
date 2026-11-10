@@ -248,4 +248,4 @@ sudo fail2ban-client status
 
 Ostatnie polecenie `status` pokazuje wszystkie aktywne więzienia i ich liczniki banów.
 
-Jeśli chcesz czysty serwer VPS do przetestowania tej konfiguracji przed wdrożeniem produkcyjnym, nasze plany [Budget VPS](/pl/budget-vps/) są wystarczająco tanie aby przejść przez całą konfigurację bez ryzyka.
+Jeśli chcesz czysty serwer VPS do przetestowania tej konfiguracji przed wdrożeniem produkcyjnym, nasze plany [Budget VPS](/pl/vps/budget/) są wystarczająco tanie aby przejść przez całą konfigurację bez ryzyka.

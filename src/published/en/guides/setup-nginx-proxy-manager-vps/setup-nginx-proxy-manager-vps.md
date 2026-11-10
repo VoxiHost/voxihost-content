@@ -135,4 +135,4 @@ You now have Nginx Proxy Manager running on your VPS and fully accessible throug
 
 Pair NPM with other self-hosted services running on the same VPS, such as WordPress or Nextcloud, to build a complete, production-ready self-hosted stack.
 
-If you need a reliable server for your self-hosted stack, check out our [Premium VPS plans](/premium-vps/) or [Budget VPS options](/budget-vps/), which both feature fast NVMe SSD storage and a high-bandwidth network port.
+If you need a reliable server for your self-hosted stack, check out our [Premium VPS plans](/vps/premium/) or [Budget VPS options](/vps/budget/), which both feature fast NVMe SSD storage and a high-bandwidth network port.

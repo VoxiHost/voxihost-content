@@ -164,4 +164,4 @@ sudo du -h /var/log/* | sort -h
 
 Te polecenia są ratownikami życia do szybkiego debugowania wolnego serwera przez SSH. Jeśli zamiast narzędzi terminalowych chcesz pięknego, historycznego panelu WWW, sprawdź nasz przewodnik [Jak skonfigurować Netdata](/pl/guides/konfiguracja-netdata-vps/). Jeśli odkryjesz że twoje CPU ciągle uderza w 100% lub twoja pamięć `available` jest konsekwentnie na 0, twój projekt oficjalnie urósł poza obecny sprzęt.
 
-Gdy nadejdzie czas na skalowanie, sprawdź nasze wysoko skalowalne opcje [Premium VPS](/pl/premium-vps/) lub niezawodne [Budget VPS](/pl/budget-vps/) aby natychmiast podwoić swoje zasoby i utrzymać swoje aplikacje działające płynnie.
+Gdy nadejdzie czas na skalowanie, sprawdź nasze wysoko skalowalne opcje [Premium VPS](/pl/vps/premium/) lub niezawodne [Budget VPS](/pl/vps/budget/) aby natychmiast podwoić swoje zasoby i utrzymać swoje aplikacje działające płynnie.

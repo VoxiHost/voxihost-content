@@ -262,4 +262,4 @@ sudo ausearch -m avc -ts recent | grep sshd
 
 That'll tell you exactly what SELinux blocked, which makes fixing it much simpler than guessing.
 
-If you want a clean RHEL-based VPS to practice this on without risk, our [Budget VPS](/budget-vps/) plans are cheap enough to spin up a test box, harden it, and start fresh if anything breaks.
+If you want a clean RHEL-based VPS to practice this on without risk, our [Budget VPS](/vps/budget/) plans are cheap enough to spin up a test box, harden it, and start fresh if anything breaks.

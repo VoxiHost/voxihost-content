@@ -22,7 +22,7 @@ contributors:
 
 Najnowsze aktualizacje naszej platformy są już dostępne od **13 czerwca 2026 r.** w **<span class="text-white">Voxi</span><span class="text-amber-300">Host</span>**. Zależy nam na tym, aby nasze usługi hostingu w chmurze były bardziej dostępne, globalne i przyjazne dla użytkowników. W tym wydaniu skupiliśmy się na gruntownej przebudowie naszych systemów walutowych i rozliczeniowych, a także na drobnych poprawkach panelu, które pomogą Ci być na bieżąco ze wszystkimi nowymi funkcjami platformy.
 
-Od kompletnej zmiany waluty platformy po natywną obsługę płatności wielowalutowych – oto wszystko, co wdrożyliśmy w ciągu ostatnich kilku tygodni.
+Od kompletnej zmiany waluty platformy po natywną obsługę płatności wielowalutowych - oto wszystko, co wdrożyliśmy w ciągu ostatnich kilku tygodni.
 
 ## 1. Przejście na Kredyty i obsługa wielu walut
 
@@ -99,7 +99,7 @@ Oprócz nowych funkcji, wprowadziliśmy kilka mniejszych usprawnień interfejsu 
 
 Rebranding i wielowalutowość to duże kroki naprzęd, ale nie zamierzamy na tym poprzestać. Oficjalnie rozpoczęliśmy prace nad **Zaporą Sieciową w Panelu (Dashboard Firewall)**, która pozwoli Ci zarządzać regułami bezpieczeństwa sieci bezpośrednio z panelu <span class="text-white">Voxi</span><span class="text-amber-300">Host</span>.
 
-Bądźcie czujni i jak zawsze – dziękujemy za wybranie **<span class="text-white">Voxi</span><span class="text-amber-300">Host</span>**!
+Bądźcie czujni i jak zawsze - dziękujemy za wybranie **<span class="text-white">Voxi</span><span class="text-amber-300">Host</span>**!
 
 
 **Gotowy sprawdzić nową stronę rozliczeń?** Zaloguj się do swojego **[Panelu](https://dashboard.voxihost.pl)** i sprawdź swoje aktywne usługi już dzisiaj!

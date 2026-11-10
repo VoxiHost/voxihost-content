@@ -1,6 +1,6 @@
 ---
 image: /assets/images/blog/pl/serwer-minecraft-1-19-ubuntu-debian/og-image.png
-title: Jak postawić serwer Minecraft Vanilla 1.19.2 (Java 17) na Ubuntu/Debian
+title: Serwer Minecraft 1.19.2 na Ubuntu i Debian
 description: Szczegółowy poradnik konfiguracji serwera Minecraft 1.19.2 Vanilla na Ubuntu lub Debianie z użyciem środowiska Java 17.
 date: '2026-04-23'
 updated: '2026-06-02'
@@ -69,7 +69,7 @@ Era Minecrafta od 1.18 do 1.20.4 opiera się na **Java 17**. Ten poradnik obejmu
 
 ## Wymagania wstępne
 
-* VPS z systemem **Ubuntu lub Debian** (dostępny w ramach [Premium VPS](/pl/premium-vps/)).
+* VPS z systemem **Ubuntu lub Debian** (dostępny w ramach [Premium VPS](/pl/vps/premium/)).
 * Dostęp sudo do wstępnej instalacji Javy.
 * Szybki dysk SSD/NVMe (wszystkie węzły <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> używają NVMe).
 
@@ -237,4 +237,4 @@ Teraz, gdy serwer działa, pamiętaj o:
 3. **Transfer plików**: Chcesz wgrać istniejący świat? Skorzystaj z SFTP zgodnie z opisem w naszym [Tutorialu FileZilla](/pl/guides/przesylanie-plikow-vps-sftp-filezilla/).
 4. **Utwardzenie i monitoring**: Zwiększ bezpieczeństwo VPS, [zabezpieczając SSH](/pl/guides/jak-zabezpieczyc-ssh-ubuntu-debian/) i [konfigurując Fail2ban](/pl/guides/konfiguracja-fail2ban-ubuntu-debian/). Możesz też [monitorować zasoby systemowe](/pl/guides/monitorowanie-vps-htop-df-free/) za pomocą htop.
 
-Twój serwer jest gotowy! Dla hostingu z niskim pingiem sprawdź nasze opcje [<span class="text-white">Voxi</span><span class="text-amber-300">Host</span> Budget VPS](/pl/budget-vps/).
+Twój serwer jest gotowy! Dla hostingu z niskim pingiem sprawdź nasze opcje [<span class="text-white">Voxi</span><span class="text-amber-300">Host</span> Budget VPS](/pl/vps/budget/).

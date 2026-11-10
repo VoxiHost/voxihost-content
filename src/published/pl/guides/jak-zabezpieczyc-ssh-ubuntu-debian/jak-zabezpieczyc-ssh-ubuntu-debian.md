@@ -227,4 +227,4 @@ Na poprawnie utwardzonym serwerze powinieneś nic nie widzieć, lub tylko garstk
 
 Z włączonym uwierzytelnianiem kluczowym SSH i wyłączonym uwierzytelnianiem hasłem, ataki siłowe na SSH są już niemożliwe. fail2ban staje się mniej krytyczny dla samego SSH. Mówiąc to, wciąż jest przydatny do ochrony innych usług jak Nginx i Apache, a uruchamianie go obok tych ustawień dodaje rozsądną warstwę obrony w głąb. Zobacz nasz przewodnik konfiguracji fail2ban [fail2ban setup guide](/pl/guides/konfiguracja-fail2ban-ubuntu-debian/) jeśli chcesz go dodać.
 
-Jeśli chcesz bezpieczne miejsce do poćwiczenia tego procesu utwardzania bez ryzykowania serwera produkcyjnego, nasze plany **[Budget VPS](/pl/budget-vps/)** są przystępną piaskownicą aby zablokować, zepsuć i zacząć od nowa tyle razy ile potrzebujesz.
+Jeśli chcesz bezpieczne miejsce do poćwiczenia tego procesu utwardzania bez ryzykowania serwera produkcyjnego, nasze plany **[Budget VPS](/pl/vps/budget/)** są przystępną piaskownicą aby zablokować, zepsuć i zacząć od nowa tyle razy ile potrzebujesz.

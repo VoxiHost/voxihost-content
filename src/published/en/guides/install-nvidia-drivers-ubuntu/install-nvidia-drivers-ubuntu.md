@@ -129,4 +129,4 @@ nvidia-smi
 
 If you see a table with your GPU details, you are ready to go! For those running GPU-accelerated containers, don't forget to check out the [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html).
 
-Looking for a high-performance environment for your AI projects? Check out <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Premium VPS plans](/premium-vps/) with dedicated resources.
+Looking for a high-performance environment for your AI projects? Check out <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Premium VPS plans](/vps/premium/) with dedicated resources.

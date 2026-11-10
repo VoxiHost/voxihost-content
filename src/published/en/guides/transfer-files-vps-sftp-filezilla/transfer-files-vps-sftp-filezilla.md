@@ -146,4 +146,4 @@ A common place to upload web files is:
 
 Navigate there in the right-side window, drag your `index.html` from your desktop (left side) to that folder, and your website is live!
 
-If you don't have a server to practice on, **[Budget VPS](/budget-vps/)** plans from **<span class="text-white">Voxi</span><span class="text-amber-300">Host</span>** are a perfect, affordable playground to learn how to manage Linux without breaking the bank. You can deploy a clean instance in seconds and start transferring files immediately.
+If you don't have a server to practice on, **[Budget VPS](/vps/budget/)** plans from **<span class="text-white">Voxi</span><span class="text-amber-300">Host</span>** are a perfect, affordable playground to learn how to manage Linux without breaking the bank. You can deploy a clean instance in seconds and start transferring files immediately.

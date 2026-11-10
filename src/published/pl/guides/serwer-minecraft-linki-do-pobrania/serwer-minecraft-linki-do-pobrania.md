@@ -138,4 +138,4 @@ Legendarna stabilność, modpacki i klasyczne PvP do wersji 1.16.5.
 
 ## Znalazłeś wersję, której szukałeś?
 
-Czas znaleźć miejsce do hostowania swojego serwera! Sprawdź nasze plany [Budget VPS](/pl/budget-vps/) lub [Premium VPS](/pl/premium-vps/).
+Czas znaleźć miejsce do hostowania swojego serwera! Sprawdź nasze plany [Budget VPS](/pl/vps/budget/) lub [Premium VPS](/pl/vps/premium/).

@@ -63,7 +63,7 @@ Docker to wspaniałe narzędzie, ale wpisywanie komend w czarnej konsoli może b
 
 W tym poradniku pokażemy Ci, krok po kroku, jak zainstalować Portainera na Twoim serwerze w zaledwie kilka minut. Nie musisz być ekspertem od Linuxa - wystarczy, że będziesz kopiować i wklejać poniższe komendy!
 
-> **Wymagania wstępne:** Będziesz potrzebować serwera [Premium VPS](/pl/premium-vps/) z systemem Ubuntu lub Debian oraz klienta SSH (np. PuTTY lub systemowy Terminal). Jeśli jeszcze nie masz serwera, <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> oferuje [Premium VPS](/pl/premium-vps/) i [Budget VPS](/pl/budget-vps/) z preinstalowanym Ubuntu i Debianem.
+> **Wymagania wstępne:** Będziesz potrzebować serwera [Premium VPS](/pl/vps/premium/) z systemem Ubuntu lub Debian oraz klienta SSH (np. PuTTY lub systemowy Terminal). Jeśli jeszcze nie masz serwera, <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> oferuje [Premium VPS](/pl/vps/premium/) i [Budget VPS](/pl/vps/budget/) z preinstalowanym Ubuntu i Debianem.
 
 ---
 
@@ -138,4 +138,4 @@ Gotowe! Teraz widzisz pełny panel kontrolny. Od teraz nie musisz używać komen
 
 ## Podsumowanie
 
-Portainer to niesamowite narzędzie, które sprawia, że technologia Docker jest dostępna nawet dla osób bez dużego doświadczenia z Linuxem. Jeśli szukasz serwera do własnych projektów lub nauki, <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> ma w ofercie [Premium VPS](/pl/premium-vps/) oraz [Budget VPS](/pl/budget-vps/) z systemem Ubuntu i Debian gotowym do działania.
+Portainer to niesamowite narzędzie, które sprawia, że technologia Docker jest dostępna nawet dla osób bez dużego doświadczenia z Linuxem. Jeśli szukasz serwera do własnych projektów lub nauki, <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> ma w ofercie [Premium VPS](/pl/vps/premium/) oraz [Budget VPS](/pl/vps/budget/) z systemem Ubuntu i Debian gotowym do działania.

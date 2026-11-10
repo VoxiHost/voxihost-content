@@ -48,7 +48,7 @@ faq:
 
 Posiadanie serwera VPS to świetna sprawa, ale przesyłanie na niego plików przez terminal (SFTP) bywa uciążliwe. Co powiesz na to, by zamienić Twój tani serwer w wygodny dysk w chmurze (jak Dysk Google czy Dropbox), obsługiwany w 100% z poziomu przeglądarki?
 
-Pomoże w tym **FileBrowser** – niesamowicie lekki menedżer plików. Działa błyskawicznie, nie wymaga domeny (możesz wejść po prostu przez adres IP) i jest tak mało zasobożerny, że idealnie sprawdzi się na każdym, nawet najtańszym [Budget VPS](/pl/budget-vps/) z naszej oferty!
+Pomoże w tym **FileBrowser** - niesamowicie lekki menedżer plików. Działa błyskawicznie, nie wymaga domeny (możesz wejść po prostu przez adres IP) i jest tak mało zasobożerny, że idealnie sprawdzi się na każdym, nawet najtańszym [Budget VPS](/pl/vps/budget/) z naszej oferty!
 
 ---
 
@@ -111,4 +111,4 @@ Zaznaczając dowolny plik, możesz kliknąć ikonkę udostępniania (Share), aby
 
 ## Podsumowanie
 
-FileBrowser to "must-have" na każdym prywatnym serwerze. Zużywa ułamek procenta pamięci RAM, a daje ogromną wygodę przy zarządzaniu plikami w Linuxie. Wykorzystaj to rozwiązanie na swoim nowym serwerze z serii [Premium VPS](/pl/premium-vps/) i zapomnij o konieczności używania programów FTP!
+FileBrowser to "must-have" na każdym prywatnym serwerze. Zużywa ułamek procenta pamięci RAM, a daje ogromną wygodę przy zarządzaniu plikami w Linuxie. Wykorzystaj to rozwiązanie na swoim nowym serwerze z serii [Premium VPS](/pl/vps/premium/) i zapomnij o konieczności używania programów FTP!

@@ -45,13 +45,13 @@ faq:
 
 Managing Python dependencies on a production server often leads to conflicts. When you install packages globally using `pip`, you risk breaking system-level tools that rely on specific library versions. On modern Ubuntu distributions, this issue is further addressed by PEP 668, which restricts global package installations to ensure system stability.
 
-The industry-standard solution is the virtual environment, or `venv`. By isolating your project dependencies into a local directory, you ensure that your application has exactly what it needs without interfering with the underlying operating system or other projects hosted on your <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Premium VPS](/premium-vps/). 
+The industry-standard solution is the virtual environment, or `venv`. By isolating your project dependencies into a local directory, you ensure that your application has exactly what it needs without interfering with the underlying operating system or other projects hosted on your <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Premium VPS](/vps/premium/). 
 
-This guide provides a direct, no-nonsense approach to setting up isolated Python environments. We will walk through installing the necessary module, creating a clean workspace, and activating your environment to start installing packages safely. Whether you are running a lightweight microservice on a [Budget VPS](/budget-vps/) or managing complex data pipelines, this setup is the foundation of professional Python development on Linux.
+This guide provides a direct, no-nonsense approach to setting up isolated Python environments. We will walk through installing the necessary module, creating a clean workspace, and activating your environment to start installing packages safely. Whether you are running a lightweight microservice on a [Budget VPS](/vps/budget/) or managing complex data pipelines, this setup is the foundation of professional Python development on Linux.
 
 ## Prerequisites
 
-Before beginning, ensure your server meets the minimum requirements for a stable development environment. We recommend a minimum of 512MB of RAM and 1 CPU core, which is standard for our [Budget VPS](/budget-vps/) and [Premium VPS](/premium-vps/) instances. 
+Before beginning, ensure your server meets the minimum requirements for a stable development environment. We recommend a minimum of 512MB of RAM and 1 CPU core, which is standard for our [Budget VPS](/vps/budget/) and [Premium VPS](/vps/premium/) instances. 
 
 You should have access to an Ubuntu 22.04 LTS or newer server with a non-root user that has `sudo` privileges. If you have not yet set up your administrative user, refer to our guide on [How to Create a Sudo User on Ubuntu & Debian: The Complete Server Guide](/guides/add-sudo-user-ubuntu/) to ensure you are not running development tasks as the root user. 
 
@@ -80,7 +80,7 @@ This installation provides the `venv` module, which allows you to create lightwe
 python3 --version
 ```
 
-If you are using a <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Premium VPS](/premium-vps/), this operation will complete in seconds. You are now prepared to initialize your first virtual environment within a dedicated project directory.
+If you are using a <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Premium VPS](/vps/premium/), this operation will complete in seconds. You are now prepared to initialize your first virtual environment within a dedicated project directory.
 
 {% image "/assets/images/blog/en/install-python-venv-ubuntu/H2.png", "Terminal output showing the successful installation of the python3-venv package via apt", "(max-width: 768px) 100vw, 800px" %}
 
@@ -155,7 +155,7 @@ This `requirements.txt` file is the industry standard for maintaining consistent
 
 ## Conclusion
 
-You have successfully established a robust, isolated Python environment on your system. By moving away from global package management, you have eliminated the risk of dependency conflicts and ensured that your projects remain portable and stable. This workflow is particularly vital when deploying applications on your [Premium VPS](/premium-vps/) or [Budget VPS](/budget-vps/), where maintaining a clean system state is essential for long-term server health.
+You have successfully established a robust, isolated Python environment on your system. By moving away from global package management, you have eliminated the risk of dependency conflicts and ensured that your projects remain portable and stable. This workflow is particularly vital when deploying applications on your [Premium VPS](/vps/premium/) or [Budget VPS](/vps/budget/), where maintaining a clean system state is essential for long-term server health.
 
 Remember that virtual environments are ephemeral. If you ever need to update your dependencies, simply reactivate the environment using the `source venv/bin/activate` command and run your updates. If you find your project requirements have changed significantly, it is often cleaner to delete the `venv` directory and recreate it from your `requirements.txt` file rather than manually uninstalling dozens of individual packages.
 

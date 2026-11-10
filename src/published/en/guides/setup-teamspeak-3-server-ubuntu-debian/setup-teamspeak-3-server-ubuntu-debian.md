@@ -58,7 +58,7 @@ TeamSpeak 3 remains one of the most reliable, low-latency, and resource-efficien
 
 In this guide, you will learn how to properly install and secure a TeamSpeak 3 server on your Ubuntu or Debian VPS.
 
-> **Prerequisites:** Before starting, ensure you have [a VPS running Ubuntu or Debian](/premium-vps/) with SSH access and a user account with `sudo` privileges.
+> **Prerequisites:** Before starting, ensure you have [a VPS running Ubuntu or Debian](/vps/premium/) with SSH access and a user account with `sudo` privileges.
 
 ## Step 1: Update the System
 
@@ -197,4 +197,4 @@ To connect, open your TeamSpeak 3 Client, connect to your server's IP address, a
 
 ### Next Steps
 * If you have a firewall enabled, ensure you open the correct ports. Check out our guide on [how to configure UFW](/guides/configure-ufw-ubuntu-debian/). TeamSpeak requires ports `9987/udp` (Voice), `10011/tcp` (ServerQuery), and `30033/tcp` (File Transfer).
-* Looking for a cost-effective hosting option? Try our [Budget VPS options](/budget-vps/), or get ultimate reliability for large communities on a <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Premium VPS](/premium-vps/) backed by [VoxiShield](/shield/) DDoS Protection.
+* Looking for a cost-effective hosting option? Try our [Budget VPS options](/vps/budget/), or get ultimate reliability for large communities on a <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Premium VPS](/vps/premium/) backed by [VoxiShield](/shield/) DDoS Protection.

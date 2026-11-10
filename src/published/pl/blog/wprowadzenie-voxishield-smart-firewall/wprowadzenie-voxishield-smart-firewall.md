@@ -112,4 +112,4 @@ Użyj kodu rabatowego **<span class="text-amber-300 font-bold text-xl uppercase 
 
 W VoxiHost pokazujemy, że zaawansowane bezpieczeństwo sieciowe nie musi wiązać się z dodatkowymi opłatami ani skomplikowaną konfiguracją. Otrzymujesz potężne, bezpłatne narzędzie, które rozwija się wraz z Twoim projektem.
 
-Zabezpiecz swoją infrastrukturę już dziś! Wybierz tani [Budget VPS](/pl/budget-vps/) lub ultraszybki [Premium VPS](/pl/premium-vps/), a konfigurację reguł sieciowych rozpocznij od razu w dedykowanym panelu [VoxiShield Smart Firewall](/pl/shield/) w dashboardzie VoxiHost.
+Zabezpiecz swoją infrastrukturę już dziś! Wybierz tani [Budget VPS](/pl/vps/budget/) lub ultraszybki [Premium VPS](/pl/vps/premium/), a konfigurację reguł sieciowych rozpocznij od razu w dedykowanym panelu [VoxiShield Smart Firewall](/pl/shield/) w dashboardzie VoxiHost.

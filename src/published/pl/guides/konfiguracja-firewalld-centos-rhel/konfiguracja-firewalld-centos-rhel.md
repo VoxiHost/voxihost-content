@@ -183,4 +183,4 @@ sudo firewall-cmd --reload
 
 Po skonfigurowaniu, `firewalld` działa cicho w tle zabezpieczając system. Ponieważ natywnie integruje się z rdzeniem Fedory, Rocky, CentOS i AlmaLinux, elegancko obsługuje złożone operacje takie jak mostkowanie kontenerów czy routowanie sieci wewnętrznych. Połączone z [fail2ban](/pl/guides/konfiguracja-fail2ban-centos-rhel/), twój serwer jest wysoce odporny na ogólne próby siłowe botów internetowych.
 
-Aby przetestować swoje umiejętności bezpieczeństwa w aktywnym internecie bez ryzykowania jakichkolwiek produkcyjnych danych, sprawdzenie tymczasowego, niskopoziomowego [Budget VPS](/pl/budget-vps/) jest taniym, niezawodnym sposobem na praktykowanie konfiguracji nieprzeniknionego systemu RHEL.
+Aby przetestować swoje umiejętności bezpieczeństwa w aktywnym internecie bez ryzykowania jakichkolwiek produkcyjnych danych, sprawdzenie tymczasowego, niskopoziomowego [Budget VPS](/pl/vps/budget/) jest taniym, niezawodnym sposobem na praktykowanie konfiguracji nieprzeniknionego systemu RHEL.

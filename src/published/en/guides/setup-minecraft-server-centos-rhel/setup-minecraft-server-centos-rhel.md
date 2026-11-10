@@ -37,7 +37,7 @@ contributors:
 
 > **Edition Choice:** This guide is specifically for **Minecraft Java Edition**. It is not compatible with Bedrock Edition (consoles, mobile, or Windows 10 "Bedrock" app).
 
-Setting up your own Minecraft Java Edition server gives you complete control over your world and community. At **<span class="text-white">Voxi</span><span class="text-amber-300">Host</span>**, our [Budget VPS](/budget-vps/) and [Premium VPS](/premium-vps/) environments provide the perfect, dedicated resources needed to run a smooth, lag-free server on Enterprise Linux distributions like AlmaLinux, Rocky Linux, or CentOS.
+Setting up your own Minecraft Java Edition server gives you complete control over your world and community. At **<span class="text-white">Voxi</span><span class="text-amber-300">Host</span>**, our [Budget VPS](/vps/budget/) and [Premium VPS](/vps/premium/) environments provide the perfect, dedicated resources needed to run a smooth, lag-free server on Enterprise Linux distributions like AlmaLinux, Rocky Linux, or CentOS.
 
 However, the most common hurdle for new server administrators isn't the Linux command line. It's **Java** itself.
 
@@ -52,10 +52,10 @@ Here is the definitive breakdown of Minecraft versions and their corresponding J
 
 | Minecraft Version | Java Requirements | Recommended Package | Importance |
 | :--- | :--- | :--- | :--- |
-| [1.20.5 – 1.21.x](/guides/minecraft-1-21-server-centos-rhel/) | **Java 21** | `java-21-openjdk-headless` | The modern standard. Essential for the latest Vanilla features. |
-| [1.18 – 1.20.4](/guides/minecraft-1-19-server-centos-rhel/) | **Java 17** | `java-17-openjdk-headless` | The backbone of many active survival worlds. |
-| [1.17 – 1.17.1](/guides/minecraft-1-17-server-centos-rhel/) | **Java 16/17** | `java-17-openjdk-headless` | A transitional update. Java 17 is recommended as a fallback here. |
-| [1.7.10 – 1.16.5](/guides/minecraft-1-8-8-server-centos-rhel/) | **Java 8** | `java-1.8.0-openjdk-headless` | The classic era. Extreme stability for legacy and PvP. |
+| [1.20.5-1.21.x](/guides/minecraft-1-21-server-centos-rhel/) | **Java 21** | `java-21-openjdk-headless` | The modern standard. Essential for the latest Vanilla features. |
+| [1.18-1.20.4](/guides/minecraft-1-19-server-centos-rhel/) | **Java 17** | `java-17-openjdk-headless` | The backbone of many active survival worlds. |
+| [1.17-1.17.1](/guides/minecraft-1-17-server-centos-rhel/) | **Java 16/17** | `java-17-openjdk-headless` | A transitional update. Java 17 is recommended as a fallback here. |
+| [1.7.10-1.16.5](/guides/minecraft-1-8-8-server-centos-rhel/) | **Java 8** | `java-1.8.0-openjdk-headless` | The classic era. Extreme stability for legacy and PvP. |
 
 > **Pro Tip for VPS Users:** Notice that we always recommend the `-headless` packages (e.g., `java-21-openjdk-headless`). Headless packages exclude graphical user interface (GUI) libraries that are useless on a terminal-only server. This saves disk space and preserves your RAM for the Minecraft server itself.
 
@@ -89,6 +89,6 @@ Looking to experience the game exactly as it was in the classic era? Deploy a pu
 
 ## Conclusion
 
-Understanding the connection between Minecraft versions and Java versions is the most important step toward successful server administration. Whether you lean toward our [Budget VPS](/budget-vps/) for a cost-effective start or our [Premium VPS](/premium-vps/) for a high-performance community world, ensuring the correct Java environment on your AlmaLinux or Rocky Linux server is the key to a stable launch. 
+Understanding the connection between Minecraft versions and Java versions is the most important step toward successful server administration. Whether you lean toward our [Budget VPS](/vps/budget/) for a cost-effective start or our [Premium VPS](/vps/premium/) for a high-performance community world, ensuring the correct Java environment on your AlmaLinux or Rocky Linux server is the key to a stable launch. 
 
 Pick your target version from the requirements table above and follow our specific setup guides to bring your Minecraft Java Edition world online!

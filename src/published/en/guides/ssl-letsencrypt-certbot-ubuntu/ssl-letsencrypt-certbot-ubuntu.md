@@ -171,4 +171,4 @@ sudo certbot renew --dry-run
 
 If the dry run finishes without any errors, you are successfully set up! Your server is now continuously and permanently secured.
 
-Need a blistering-fast environment ready to deploy secure web apps? Pick up an exceptionally affordable [Budget VPS](/budget-vps/), setup your Nginx block, slap a free SSL on it, and launch your project safely to the world.
+Need a blistering-fast environment ready to deploy secure web apps? Pick up an exceptionally affordable [Budget VPS](/vps/budget/), setup your Nginx block, slap a free SSL on it, and launch your project safely to the world.

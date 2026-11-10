@@ -1,6 +1,6 @@
 ---
 image: /assets/images/blog/pl/serwer-minecraft-1-17-ubuntu-debian/og-image.png
-title: Jak postawić serwer Minecraft Vanilla 1.17.1 (Java 16) na Ubuntu/Debian
+title: Serwer Minecraft 1.17.1 na Ubuntu i Debian
 description: Instrukcja instalacji serwera Minecraft 1.17.1 na Ubuntu/Debian z użyciem środowiska Java 16.
 date: '2026-04-23'
 updated: '2026-06-02'
@@ -75,7 +75,7 @@ Dokładny link do pobrania swojej wersji znajdziesz w naszym [Archiwum linków d
 
 ## Wymagania wstępne
 
-* VPS z systemem **Ubuntu lub Debian** (dostępny w ramach [Premium VPS](/pl/premium-vps/)).
+* VPS z systemem **Ubuntu lub Debian** (dostępny w ramach [Premium VPS](/pl/vps/premium/)).
 * Dostęp root lub sudo przez SSH (do instalacji Javy).
 * **Ograniczony użytkownik inny niż root** do bezpiecznego uruchamiania serwera.
 
@@ -249,4 +249,4 @@ Teraz, gdy serwer działa, pamiętaj o:
 3. **Transfer plików**: Chcesz wgrać istniejący świat? Skorzystaj z SFTP zgodnie z opisem w naszym [Tutorialu FileZilla](/pl/guides/przesylanie-plikow-vps-sftp-filezilla/).
 4. **Utwardzenie i monitoring**: Zwiększ bezpieczeństwo VPS, [zabezpieczając SSH](/pl/guides/jak-zabezpieczyc-ssh-ubuntu-debian/) i [konfigurując Fail2ban](/pl/guides/konfiguracja-fail2ban-ubuntu-debian/). Możesz też [monitorować zasoby systemowe](/pl/guides/monitorowanie-vps-htop-df-free/) za pomocą htop.
 
-Szukasz stabilnego domu dla swojego świata? Sprawdź **[Premium VPS](/pl/premium-vps/)**.
+Szukasz stabilnego domu dla swojego świata? Sprawdź **[Premium VPS](/pl/vps/premium/)**.

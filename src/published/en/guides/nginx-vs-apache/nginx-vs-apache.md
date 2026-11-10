@@ -64,7 +64,7 @@ When a request comes in, a worker process reads the event, passes it to the syst
 
 ## 2. Performance Comparison & Benchmarks
 
-To illustrate the real-world performance differences, we ran a quick benchmark on clean installations of Nginx (v1.26, see our [guide to install Nginx on Ubuntu/Debian](/guides/install-nginx-ubuntu-debian/)) and Apache (v2.4 with Event MPM, see our [guide to install Apache on Ubuntu/Debian](/guides/install-apache-ubuntu-debian/)) running on a standard <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Premium VPS](/premium-vps/) (2 vCPU, 4 GB RAM, running Ubuntu 24.04 LTS). No performance tuning was applied to either server; the only modification was raising the `worker_connections` limit to `4096` in Nginx's configuration file to ensure stable handling of the 1,000 concurrent client threads.
+To illustrate the real-world performance differences, we ran a quick benchmark on clean installations of Nginx (v1.26, see our [guide to install Nginx on Ubuntu/Debian](/guides/install-nginx-ubuntu-debian/)) and Apache (v2.4 with Event MPM, see our [guide to install Apache on Ubuntu/Debian](/guides/install-apache-ubuntu-debian/)) running on a standard <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Premium VPS](/vps/premium/) (2 vCPU, 4 GB RAM, running Ubuntu 24.04 LTS). No performance tuning was applied to either server; the only modification was raising the `worker_connections` limit to `4096` in Nginx's configuration file to ensure stable handling of the 1,000 concurrent client threads.
 
 We used `wrk` on a client machine to send 1,000 concurrent requests over a duration of 30 seconds:
 
@@ -73,7 +73,7 @@ wrk -t16 -c1000 -d30s http://your_server_ip/
 ```
 
 ### The Benchmark Results
-*   **Nginx throughput:** Handled **37,180 requests per second** (RPS) with a stable memory footprint of **15–18 MB RAM** and **0 socket errors**.
+*   **Nginx throughput:** Handled **37,180 requests per second** (RPS) with a stable memory footprint of **15-18 MB RAM** and **0 socket errors**.
 
 {% image "/assets/images/blog/en/nginx-vs-apache/nginx-benchmark.png", "Terminal output showing wrk benchmark test results for Nginx achieving 37,180 RPS", "(max-width: 768px) 100vw, 800px" %}
 
@@ -82,7 +82,7 @@ wrk -t16 -c1000 -d30s http://your_server_ip/
 {% image "/assets/images/blog/en/nginx-vs-apache/apache2-benchmark.png", "Terminal output showing wrk benchmark test results for Apache with connection timeouts", "(max-width: 768px) 100vw, 800px" %}
 
 ### Static Content vs. Dynamic Content
-*   **Static Content (HTML, CSS, JS, Images):** **Nginx is the clear winner**. Because of its event-driven model and efficient use of kernel-level system calls (like `sendfile`), Nginx bypasses user-space overhead and serves files directly. Under high concurrent load, this enables Nginx to serve static files up to **11.7 times faster** than Apache out of the box. If you are running static sites (React, Vue, or Hugo), hosting it on Nginx ensures lightning-fast load times even on a budget-friendly [Budget VPS](/budget-vps/).
+*   **Static Content (HTML, CSS, JS, Images):** **Nginx is the clear winner**. Because of its event-driven model and efficient use of kernel-level system calls (like `sendfile`), Nginx bypasses user-space overhead and serves files directly. Under high concurrent load, this enables Nginx to serve static files up to **11.7 times faster** than Apache out of the box. If you are running static sites (React, Vue, or Hugo), hosting it on Nginx ensures lightning-fast load times even on a budget-friendly [Budget VPS](/vps/budget/).
 *   **Dynamic Content (PHP, Node.js, Python):** When executing dynamic scripts (e.g., running PHP code), both servers act similarly since the bottleneck is the runtime engine itself (like `PHP-FPM`). However, Nginx still keeps a lower memory footprint because it doesn't bloat its processes with dynamic processing modules like Apache does. If you are building a modern web stack, check our [LEMP Stack setup guide](/guides/install-lemp-ubuntu-debian/) or the alternative [LAMP Stack setup guide](/guides/install-lamp-ubuntu-debian/).
 
 ---
@@ -134,7 +134,7 @@ While this requires SSH access and root privileges (meaning it is less flexible 
 ### Choose Nginx if:
 *   You are hosting high-traffic websites, APIs, or single-page applications.
 *   You need a powerful reverse proxy to route traffic to backend runtimes like Node.js, Go, or Python.
-*   You want to squeeze maximum performance and handle thousands of concurrent users on a [Budget VPS](/budget-vps/).
+*   You want to squeeze maximum performance and handle thousands of concurrent users on a [Budget VPS](/vps/budget/).
 *   You want to build a highly optimized LEMP stack (see our [LEMP Stack installation guide](/guides/install-lemp-ubuntu-debian/)) for WordPress.
 
-For modern production setups, the combination of Nginx as a reverse proxy in front of backend applications running on a [Premium VPS](/premium-vps/) protected by <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Shield DDoS protection](/shield/) represents the industry gold standard for speed, reliability, and security.
+For modern production setups, the combination of Nginx as a reverse proxy in front of backend applications running on a [Premium VPS](/vps/premium/) protected by <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Shield DDoS protection](/shield/) represents the industry gold standard for speed, reliability, and security.

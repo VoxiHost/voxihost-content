@@ -198,4 +198,4 @@ If the installation was successful, you will be greeted by a massive, highly det
 sudo rm /var/www/html/info.php
 ```
 
-Congratulations! You have successfully built a tried, tested, and rock-solid foundation for hosting on Linux. Do you have a heavy e-commerce site, forum, or high-traffic blog ready to launch? Pair your new LAMP stack with one of our high-tier [Premium VPS](/premium-vps/) environments or a highly cost-effective [Budget VPS](/budget-vps/), install a [free SSL via Certbot](/guides/ssl-letsencrypt-certbot-ubuntu/), and build the ultimate web experience.
+Congratulations! You have successfully built a tried, tested, and rock-solid foundation for hosting on Linux. Do you have a heavy e-commerce site, forum, or high-traffic blog ready to launch? Pair your new LAMP stack with one of our high-tier [Premium VPS](/vps/premium/) environments or a highly cost-effective [Budget VPS](/vps/budget/), install a [free SSL via Certbot](/guides/ssl-letsencrypt-certbot-ubuntu/), and build the ultimate web experience.

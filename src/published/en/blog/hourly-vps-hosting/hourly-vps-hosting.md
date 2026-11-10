@@ -45,15 +45,15 @@ The Hourly system isn't just a different way to pay, it's a total shift in how y
 
 ### 1. Pay Only for What You Use
 No more paying for unused time. If your compute needs only last a few hours a week, the Hourly model will save you real money. Prices start as low as:
-*   **€0.01 / hour** on the [Budget VPS](/budget-vps/) plan
-*   **€0.02 / hour** on the [Premium VPS](/premium-vps/) plan
+*   **€0.01 / hour** on the [Budget VPS](/vps/budget/) plan
+*   **€0.02 / hour** on the [Premium VPS](/vps/premium/) plan
 
 ### 2. Full Flexibility of Choice
-We don't compromise on quality. Hourly billing is available for both our [Premium VPS](/premium-vps/) and [Budget VPS](/budget-vps/) base models. 
+We don't compromise on quality. Hourly billing is available for both our [Premium VPS](/vps/premium/) and [Budget VPS](/vps/budget/) base models. 
 
 For full transparency, here is how we calculate the hourly rate based on your selected resources:
 
-| Element | [Budget VPS](/budget-vps/) | [Premium VPS](/premium-vps/) |
+| Element | [Budget VPS](/vps/budget/) | [Premium VPS](/vps/premium/) |
 | :--- | :--- | :--- |
 | **Base (minimum)** | **€0.01/hr** (2 vCPU, 2 GB RAM, 10 GB SSD) | **€0.02/hr** (1 vCPU, 2 GB RAM, 10 GB SSD) |
 | **CPU Upgrade** | +€0.0023/hr (per +2 vCores) | +€0.01/hr (per +1 vCore) |
@@ -68,7 +68,7 @@ If you need more resources, you simply increase the specific parameter, for inst
 
 > The final total hourly price is calculated by summing up the base price and any additional parameter upgrades. The final result is always rounded to **2 decimal places** (e.g., €0.03).
 
-> **Flexibility vs. Cost:** You can use the Hourly model for long-term projects, but the total monthly cost will be higher than choosing a predefined [Monthly Plan](/budget-vps/). Specifically, hourly rates are approximately **1.46x** higher for **Budget** and **1.77x** higher for **Premium** models compared to our fixed monthly packages. You are paying for the absolute freedom to delete or change your instance at any second. For long-term 24/7 projects, our Monthly plans are always the most economical choice.
+> **Flexibility vs. Cost:** You can use the Hourly model for long-term projects, but the total monthly cost will be higher than choosing a predefined [Monthly Plan](/vps/budget/). Specifically, hourly rates are approximately **1.46x** higher for **Budget** and **1.77x** higher for **Premium** models compared to our fixed monthly packages. You are paying for the absolute freedom to delete or change your instance at any second. For long-term 24/7 projects, our Monthly plans are always the most economical choice.
 
 ### 3. Intelligent Server Management
 We’ve introduced several features to make life easier for Hourly users:

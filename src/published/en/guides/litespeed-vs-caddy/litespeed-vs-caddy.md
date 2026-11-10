@@ -116,7 +116,7 @@ If you are deploying a Node.js API, a Go microservice, or a static website (Reac
 
 ## Conclusion: Which One Fits Your VPS?
 
-*   Install **OpenLiteSpeed** if you are hosting a WordPress blog or e-commerce shop and want the absolute fastest load times using LiteSpeed Cache. It runs beautifully on our [Premium VPS](/premium-vps/) plans where SSD NVMe speeds amplify page loading performance.
-*   Install **Caddy** if you are a developer looking for a simple, modern web server with automated SSL that you can set up in 10 seconds to reverse-proxy your custom apps on a [Budget VPS](/budget-vps/).
+*   Install **OpenLiteSpeed** if you are hosting a WordPress blog or e-commerce shop and want the absolute fastest load times using LiteSpeed Cache. It runs beautifully on our [Premium VPS](/vps/premium/) plans where SSD NVMe speeds amplify page loading performance.
+*   Install **Caddy** if you are a developer looking for a simple, modern web server with automated SSL that you can set up in 10 seconds to reverse-proxy your custom apps on a [Budget VPS](/vps/budget/).
 
 Both servers are fully compatible with <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> networks and work seamlessly behind our [Shield DDoS protection](/shield/) to keep your web services secure and fast.

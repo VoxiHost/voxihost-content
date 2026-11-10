@@ -205,7 +205,7 @@ main() {
 main
 ```
 
-> **Note:** The mirror list in this script is focused on major European and US mirrors (ideal for [Premium VPS](/premium-vps/) locations). You can easily add more regional URLs to the `mirrors` array if your server is located elsewhere.
+> **Note:** The mirror list in this script is focused on major European and US mirrors (ideal for [Premium VPS](/vps/premium/) locations). You can easily add more regional URLs to the `mirrors` array if your server is located elsewhere.
 
 {% image "/assets/images/blog/en/fastest-apt-mirror-ubuntu/H1.png", "Terminal output showing the execution of the mirror selection script benchmarking latency", "(max-width: 768px) 100vw, 800px" %}
 
@@ -254,4 +254,4 @@ APT source optimization completed!
 
 Your server is now configured to fetch packages from the fastest available regional mirror, drastically reducing the time it takes to install software and apply security updates.
 
-Looking for high-performance hosting in Europe? Deploy a <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Budget VPS](/budget-vps/) today and experience the speed of NVMe storage combined with optimal network routing.
+Looking for high-performance hosting in Europe? Deploy a <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Budget VPS](/vps/budget/) today and experience the speed of NVMe storage combined with optimal network routing.

@@ -161,7 +161,7 @@ To move beyond theoretical differences, we ran a series of performance benchmark
 
 ### Choose Podman if:
 *   Security is your top priority, and you want to run containers in a multi-tenant environment without granting root access.
-*   You are running isolated applications, web servers, or databases on a [Premium VPS](/premium-vps/).
+*   You are running isolated applications, web servers, or databases on a [Premium VPS](/vps/premium/).
 *   You want clean, native integration with systemd services for automated startup and process monitoring.
 
-Both runtimes are fully compatible with [Budget VPS](/budget-vps/) and [Premium VPS](/premium-vps/) hosting configurations from <span class="text-white">Voxi</span><span class="text-amber-300">Host</span>.
+Both runtimes are fully compatible with [Budget VPS](/vps/budget/) and [Premium VPS](/vps/premium/) hosting configurations from <span class="text-white">Voxi</span><span class="text-amber-300">Host</span>.

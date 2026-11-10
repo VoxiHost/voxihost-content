@@ -46,7 +46,7 @@ faq:
   - question: "Dlaczego MariaDB jest zalecana zamiast tradycyjnego MySQL?"
     answer: "MariaDB to w pełni otwarta (open-source) baza danych, będąca bezpośrednim zamiennikiem (drop-in replacement) dla MySQL. Charakteryzuje się szybszym przetwarzaniem zapytań, lepszymi algorytmami optymalizacji i jest domyślnym pakietem bazy danych w Debianie i Ubuntu."
   - question: "Dlaczego Nginx wymaga PHP-FPM zamiast tradycyjnego modułu PHP?"
-    answer: "Nginx nie potrafi przetwarzać skryptów PHP wewnątrz własnego procesu. Wymaga zewnętrznego procesora – **PHP-FPM** (FastCGI Process Manager). Nginx działa jako proxy, przekazując żądania PHP do demona PHP-FPM poprzez gniazdo Unix socket."
+    answer: "Nginx nie potrafi przetwarzać skryptów PHP wewnątrz własnego procesu. Wymaga zewnętrznego procesora - **PHP-FPM** (FastCGI Process Manager). Nginx działa jako proxy, przekazując żądania PHP do demona PHP-FPM poprzez gniazdo Unix socket."
   - question: "Jak sprawdzić, z której wersji PHP-FPM korzysta mój serwer i jaka jest ścieżka socketu?"
     answer: "Wersję sprawdzisz wpisując <code>php -v</code>. Plik gniazda Unix znajduje się zazwyczaj w folderze <code>/var/run/php/</code> (np. <code>php8.3-fpm.sock</code>). Ta sama ścieżka musi być wpisana w pliku konfiguracyjnym bloku serwera Nginx."
   - question: "Co oznacza błąd 502 Bad Gateway przy otwieraniu plików PHP i jak go naprawić?"
@@ -217,4 +217,4 @@ Powinieneś zobaczyć ogromną, szczegółową tabelę fioletowo-szarą opisują
 sudo rm /var/www/html/info.php
 ```
 
-Gratulacje! Pomyślnie zbudowałeś sprawdzony, przetestowany i solidny fundament do hostowania dynamicznych aplikacji na Linuksie. Czy masz ciężki sklep e-commerce, forum czy blog o dużym ruchu gotowy do uruchomienia? Połącz swój nowy stos LEMP z jednym z naszych środowisk [Premium VPS](/pl/premium-vps/), zainstaluj [bezpłatne SSL przez Let's Encrypt](/pl/guides/certyfikat-ssl-letsencrypt-ubuntu/) i wdróż swoją ostateczną aplikację do świata.
+Gratulacje! Pomyślnie zbudowałeś sprawdzony, przetestowany i solidny fundament do hostowania dynamicznych aplikacji na Linuksie. Czy masz ciężki sklep e-commerce, forum czy blog o dużym ruchu gotowy do uruchomienia? Połącz swój nowy stos LEMP z jednym z naszych środowisk [Premium VPS](/pl/vps/premium/), zainstaluj [bezpłatne SSL przez Let's Encrypt](/pl/guides/certyfikat-ssl-letsencrypt-ubuntu/) i wdróż swoją ostateczną aplikację do świata.

@@ -1,6 +1,6 @@
 ---
 image: /assets/images/blog/en/minecraft-1-21-server-centos-rhel/og-image.png
-title: How to Setup a Minecraft Vanilla 1.21.1 Server (Java 21) on AlmaLinux, CentOS, Rocky Linux & Fedora
+title: Minecraft 1.21.1 Server on AlmaLinux, CentOS & Rocky
 description: Step-by-step guide to installing the latest Minecraft 1.21.1 Vanilla server on AlmaLinux, Rocky Linux, or CentOS using Java 21.
 date: '2026-04-23'
 updated: '2026-06-02'
@@ -79,7 +79,7 @@ At **<span class="text-white">Voxi</span><span class="text-amber-300">Host</span
 
 ## Prerequisites
 
-* A VPS running **AlmaLinux, Rocky Linux, or CentOS** (Available on [Premium VPS](/premium-vps/)).
+* A VPS running **AlmaLinux, Rocky Linux, or CentOS** (Available on [Premium VPS](/vps/premium/)).
 * Root or sudo access via SSH (for installing Java).
 * **A restricted non-root user** to run the server software safely.
 
@@ -242,4 +242,4 @@ Now that your server is running, don't forget to:
 3. **Transfer Files**: Want to upload an existing world? Use SFTP as explained in our [FileZilla Tutorial](/guides/transfer-files-vps-sftp-filezilla/).
 4. **Hardening & Monitoring**: Protect your VPS further by [securing SSH](/guides/secure-ssh-centos-rhel/) and [setting up Fail2ban](/guides/setup-fail2ban-centos-rhel/). You can also [monitor your system resources](/guides/monitor-vps-htop-df-free/) using htop.
 
-Now your **Minecraft 1.21.1** server is live! If you need more power for your community, check out our [Premium VPS](/premium-vps/) plans optimized for game hosting.
+Now your **Minecraft 1.21.1** server is live! If you need more power for your community, check out our [Premium VPS](/vps/premium/) plans optimized for game hosting.

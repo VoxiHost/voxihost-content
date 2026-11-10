@@ -47,7 +47,7 @@ We believe in giving you the freedom to choose the environment that fits your wo
 
 {% image "/assets/images/blog/en/devblog-march-2026/new-distributions.png", "A selection of new Linux distributions available for one-click install on VoxiHost VPS", "(max-width: 768px) 100vw, 800px" %}
 
-All these distributions are now available for **one-click deployment** on all our [Premium](/premium-vps/) and [Budget](/budget-vps/) VPS plans.
+All these distributions are now available for **one-click deployment** on all our [Premium](/vps/premium/) and [Budget](/vps/budget/) VPS plans.
 
 ## 3. Seamless Login with Google Auth
 

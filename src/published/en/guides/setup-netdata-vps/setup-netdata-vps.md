@@ -130,4 +130,4 @@ By default, Netdata's local dashboard is accessible to anyone who has your serve
 
 If you are running a production server, it is highly recommended to eventually bind Netdata strictly to `localhost` and access it via a Reverse Proxy (using an Nginx Server Block) with a required password prompt (`htpasswd`). 
 
-However, for a fresh testing or development environment, leaving the port open is fine for rapid monitoring. If you want to dive into complex performance metrics or monitor massive database loads efficiently, grab a remarkably robust [Budget VPS](/budget-vps/), spin up some intense applications, install Netdata, and watch the graphs dance perfectly in real-time.
+However, for a fresh testing or development environment, leaving the port open is fine for rapid monitoring. If you want to dive into complex performance metrics or monitor massive database loads efficiently, grab a remarkably robust [Budget VPS](/vps/budget/), spin up some intense applications, install Netdata, and watch the graphs dance perfectly in real-time.

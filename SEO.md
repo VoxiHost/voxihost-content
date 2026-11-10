@@ -1,6 +1,6 @@
-# 🔍 VoxiHost Blog — SEO Guide & Best Practices
+# 🔍 VoxiHost Blog - SEO Guide & Best Practices
 
-This document explains exactly how the VoxiHost blog engine generates SEO metadata, structured data (JSON-LD), and social previews — and what **you as a content author** need to do (or avoid doing) to maximize search engine performance.
+This document explains exactly how the VoxiHost blog engine generates SEO metadata, structured data (JSON-LD), and social previews - and what **you as a content author** need to do (or avoid doing) to maximize search engine performance.
 
 > [!IMPORTANT]
 > Most SEO on the VoxiHost blog is **automatic**. The engine reads your YAML frontmatter and does the rest. Your job is to fill in the right values. This document tells you which ones matter most and why.
@@ -10,12 +10,12 @@ This document explains exactly how the VoxiHost blog engine generates SEO metada
 ## 📋 Table of Contents
 
 1. [How the SEO Engine Works](#1-how-the-seo-engine-works)
-2. [Meta Tags — What Gets Generated](#2-meta-tags--what-gets-generated)
+2. [Meta Tags - What Gets Generated](#2-meta-tags--what-gets-generated)
 3. [JSON-LD Structured Data (Rich Results)](#3-json-ld-structured-data-rich-results)
 4. [The HowTo Schema (Google Rich Steps)](#4-the-howto-schema-google-rich-steps)
 5. [Open Graph & Social Previews](#5-open-graph--social-previews)
 6. [Hreflang & Language Switching](#6-hreflang--language-switching)
-7. [Writing for SEO — Content Best Practices](#7-writing-for-seo--content-best-practices)
+7. [Writing for SEO - Content Best Practices](#7-writing-for-seo--content-best-practices)
 8. [OG Image Requirements](#8-og-image-requirements)
 9. [Common SEO Mistakes](#9-common-seo-mistakes)
 
@@ -37,7 +37,7 @@ The blog is built with **Eleventy (11ty)**. Every time a new article ZIP is impo
 
 ---
 
-## 2. Meta Tags — What Gets Generated
+## 2. Meta Tags - What Gets Generated
 
 The engine generates the following `<meta>` tags automatically from your frontmatter:
 
@@ -59,16 +59,16 @@ The `title` is the single most important SEO field. Rules:
 - ✅ **Include the main keyword near the start:** Don't bury it after "The Complete Guide to..."
 - ✅ **Include the target OS/platform** when applicable: `...on Ubuntu 24.04`
 - ✅ **Keep it under 60 characters** (Google truncates at ~60 chars in SERPs)
-- ❌ **No markdown, HTML, or emoji** in the `title` field — it goes directly into `<title>` and JSON-LD
+- ❌ **No markdown, HTML, or emoji** in the `title` field - it goes directly into `<title>` and JSON-LD
 
 ### Description Best Practices
 
 The `description` is shown as the **snippet text** in Google search results.
 
-- ✅ **Keep it between 120–160 characters** — shorter gets padded, longer gets truncated
+- ✅ **Keep it between 120–160 characters** - shorter gets padded, longer gets truncated
 - ✅ **Summarize what the reader will accomplish:** "Learn how to harden your SSH daemon..."
 - ✅ **Include the primary keyword naturally**
-- ❌ **No markdown formatting** — no `**bold**`, no backticks, no links
+- ❌ **No markdown formatting** - no `**bold**`, no backticks, no links
 - ❌ **No duplicating the title verbatim**
 
 ---
@@ -160,10 +160,10 @@ howto:
     - An SSH client (terminal, PuTTY)
     - A user account with sudo privileges
   steps:
-    - name: Step 1 — Update the System
+    - name: Step 1 - Update the System
       text: Ensure all packages are up to date before making configuration changes.
       url: step-1--update-the-system
-    - name: Step 2 — Edit the SSH Configuration File
+    - name: Step 2 - Edit the SSH Configuration File
       text: Open /etc/ssh/sshd_config and modify the key security parameters.
       url: step-2--edit-the-ssh-configuration-file
 ```
@@ -186,14 +186,14 @@ The `steps[].url` must match the **auto-generated anchor ID** that the markdown 
 
 | Markdown heading | Generated anchor ID |
 | :--- | :--- |
-| `## Step 1 — Update the System` | `step-1--update-the-system` |
-| `## Step 2 — Edit SSH Config` | `step-2--edit-ssh-config` |
+| `## Step 1 - Update the System` | `step-1--update-the-system` |
+| `## Step 2 - Edit SSH Config` | `step-2--edit-ssh-config` |
 | `## Conclusion` | `conclusion` |
 
-**Rule:** Replace spaces with hyphens, strip special characters except hyphens, make everything lowercase. An em-dash ` — ` becomes ` -- ` (two hyphens).
+**Rule:** Replace spaces with hyphens, strip special characters except hyphens, make everything lowercase. An em-dash ` - ` becomes ` -- ` (two hyphens).
 
 > [!NOTE]
-> Only add `howto:` for genuine step-by-step guides. Do **not** add it to news posts, devblogs, or short announcements — Google may penalize misuse of the schema.
+> Only add `howto:` for genuine step-by-step guides. Do **not** add it to news posts, devblogs, or short announcements - Google may penalize misuse of the schema.
 
 ---
 
@@ -215,7 +215,7 @@ When your article is shared on social media (X/Twitter, Facebook, LinkedIn, Flux
 | `article:author` | `author.link` or `author.name` | |
 | `article:tag` | `tags` array | Each tag becomes a separate `article:tag` |
 
-Twitter/X additionally uses `summary_large_image` card — this shows the full `image` as a large preview instead of a thumbnail.
+Twitter/X additionally uses `summary_large_image` card - this shows the full `image` as a large preview instead of a thumbnail.
 
 ---
 
@@ -235,15 +235,15 @@ This tells Google that these two pages are translations of the same content, pre
 - Set the **same** `translationKey` value in both the EN and PL frontmatter
 - Set the correct `locale: en` / `locale: pl` in each respective file
 
-If you only write in one language, still include `translationKey` — it will just produce a single `hreflang` tag without a cross-language pair.
+If you only write in one language, still include `translationKey` - it will just produce a single `hreflang` tag without a cross-language pair.
 
 ---
 
-## 7. Writing for SEO — Content Best Practices
+## 7. Writing for SEO - Content Best Practices
 
 ### Heading Structure
 
-The `title` frontmatter field becomes the `<h1>` on the page. **Never use a `# H1` heading** inside the article body — it creates two H1s which is an SEO error.
+The `title` frontmatter field becomes the `<h1>` on the page. **Never use a `# H1` heading** inside the article body - it creates two H1s which is an SEO error.
 
 ```
 title: Your Article Title    ← This becomes <h1>
@@ -258,8 +258,8 @@ title: Your Article Title    ← This becomes <h1>
 
 - Use your primary keyword in the **first paragraph** of the article
 - Use it **2–4 more times** throughout the article, naturally
-- Use synonyms and related terms (LSI keywords) — e.g. for "secure SSH": "SSH hardening", "SSH daemon", "sshd_config", "disable root login"
-- Do **not** keyword-stuff — Google penalizes unnaturally repetitive text
+- Use synonyms and related terms (LSI keywords) - e.g. for "secure SSH": "SSH hardening", "SSH daemon", "sshd_config", "disable root login"
+- Do **not** keyword-stuff - Google penalizes unnaturally repetitive text
 
 ### Article Length
 
@@ -274,7 +274,7 @@ title: Your Article Title    ← This becomes <h1>
 
 ### Internal Linking
 
-Always link to related VoxiHost articles and product pages within your content. Use standard Markdown links — they get **auto-colored** by the engine based on destination:
+Always link to related VoxiHost articles and product pages within your content. Use standard Markdown links - they get **auto-colored** by the engine based on destination:
 
 ```markdown
 # Link to a related article:
@@ -297,16 +297,16 @@ Every image must have descriptive alt text. The engine uses this for:
 - Google Image Search indexing
 
 ```jinja
-{# Good — describes the specific screenshot content: #}
+{# Good - describes the specific screenshot content: #}
 {% image "/assets/images/blog/<lang>/your-slug/step2.png", "Terminal output showing SSH service successfully restarted with systemctl", "(max-width: 768px) 100vw, 800px" %}
 
-{# Bad — too generic: #}
+{# Bad - too generic: #}
 {% image "/assets/images/blog/<lang>/your-slug/step2.png", "Screenshot", "(max-width: 768px) 100vw, 800px" %}
 ```
 
 ---
 
-## 8. OG Image — Handled by the VoxiHost Team
+## 8. OG Image - Handled by the VoxiHost Team
 
 The `image:` field in frontmatter controls the hero image, social media preview card, blog listing thumbnail, and the `BlogPosting` JSON-LD `image` property.
 
@@ -319,7 +319,7 @@ The `image:` field in frontmatter controls the hero image, social media preview 
 > ```
 > We will replace it with the final branded image before the article goes live.
 
-The images you *do* need to provide are **in-article screenshots and diagrams** (step-by-step screenshots, terminal output, configuration examples). These go in the `images/` subfolder of your article folder and are referenced using the `{% image %}` shortcode — see [FORMATTING.md](FORMATTING.md) for details.
+The images you *do* need to provide are **in-article screenshots and diagrams** (step-by-step screenshots, terminal output, configuration examples). These go in the `images/` subfolder of your article folder and are referenced using the `{% image %}` shortcode - see [FORMATTING.md](FORMATTING.md) for details.
 
 ---
 
@@ -327,13 +327,13 @@ The images you *do* need to provide are **in-article screenshots and diagrams** 
 
 ### ❌ Wrong `image` path format in frontmatter
 
-The `image:` field must use the correct production web path. When submitting a draft, leave the placeholder — the VoxiHost team will set the correct path when publishing:
+The `image:` field must use the correct production web path. When submitting a draft, leave the placeholder - the VoxiHost team will set the correct path when publishing:
 
 ```yaml
-# Wrong — local relative path:
+# Wrong - local relative path:
 image: images/og-image.png
 
-# Wrong — missing slug folder:
+# Wrong - missing slug folder:
 image: /assets/images/blog/og-image.png
 
 # Correct placeholder for your draft (leave as-is):
@@ -343,10 +343,10 @@ image: /assets/images/blog/<lang>/your-article-slug/og-image.png
 ### ❌ `description` too short or too long
 
 ```yaml
-# Too short (< 120 chars) — Google may auto-generate a worse snippet:
+# Too short (< 120 chars) - Google may auto-generate a worse snippet:
 description: A guide to installing Docker.
 
-# Too long (> 160 chars) — truncated in SERPs with "...":
+# Too long (> 160 chars) - truncated in SERPs with "...":
 description: This is an extremely detailed, comprehensive, step-by-step guide that covers every single aspect of Docker installation on Ubuntu and Debian-based Linux systems, including troubleshooting.
 
 # Good (120-160 chars):
@@ -369,7 +369,7 @@ description: Learn how to install Docker Engine on Ubuntu 22.04 and Debian 12. I
 url: step-1-update-system
 
 # But the heading in the article is:
-## Step 1 — Update the System
+## Step 1 - Update the System
 # Which generates anchor: step-1--update-the-system  (note double dash!)
 
 # Correct:

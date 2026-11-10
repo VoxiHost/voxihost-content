@@ -176,4 +176,4 @@ Regularly updated servers also fail in more predictable ways. If something break
 
 For a completely hardened server, package updates are just step one. Consider setting up [UFW Firewall](/guides/configure-ufw-ubuntu-debian/) and [fail2ban](/guides/setup-fail2ban-ubuntu-debian/) to drop malicious background noise actively.
 
-If you want a clean VPS to practice this on, our [Budget VPS](/budget-vps/) plans are cheap enough that you can snapshot, experiment, and blow it up without any stress.
+If you want a clean VPS to practice this on, our [Budget VPS](/vps/budget/) plans are cheap enough that you can snapshot, experiment, and blow it up without any stress.

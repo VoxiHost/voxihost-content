@@ -63,7 +63,7 @@ Docker is an amazing tool, but typing commands into a black terminal can be over
 
 In this step-by-step tutorial, we will show you how to install Portainer on your server in just a few minutes. You don't need to be a Linux expert - just copy and paste the commands below!
 
-> **Prerequisites:** You will need a [Premium VPS](/premium-vps/) running Ubuntu or Debian and an SSH client (e.g. PuTTY or your system Terminal). If you don't have a server yet, <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> offers [Premium VPS](/premium-vps/) and [Budget VPS](/budget-vps/) with Ubuntu and Debian available out of the box.
+> **Prerequisites:** You will need a [Premium VPS](/vps/premium/) running Ubuntu or Debian and an SSH client (e.g. PuTTY or your system Terminal). If you don't have a server yet, <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> offers [Premium VPS](/vps/premium/) and [Budget VPS](/vps/budget/) with Ubuntu and Debian available out of the box.
 
 ---
 
@@ -138,4 +138,4 @@ You're all set! You now have access to the full dashboard. From now on, you don'
 
 ## Conclusion
 
-Portainer is an incredible tool that makes Docker accessible even for those without much Linux experience. If you are looking for a server to run your own projects, <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> offers [Premium VPS](/premium-vps/) and [Budget VPS](/budget-vps/) with Ubuntu and Debian ready to go.
+Portainer is an incredible tool that makes Docker accessible even for those without much Linux experience. If you are looking for a server to run your own projects, <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> offers [Premium VPS](/vps/premium/) and [Budget VPS](/vps/budget/) with Ubuntu and Debian ready to go.

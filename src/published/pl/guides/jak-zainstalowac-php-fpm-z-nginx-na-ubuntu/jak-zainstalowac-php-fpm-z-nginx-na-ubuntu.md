@@ -44,7 +44,7 @@ faq:
 
 Uruchomienie wydajnego serwera WWW wymaga stosu technologicznego, który łączy szybkość z oszczędnością zasobów. Choć serwer Apache obsługuje ruch w sieci od dziesięcioleci, to połączenie Nginx z PHP-FPM stało się standardem w przypadku nowoczesnych aplikacji o dużym natężeniu ruchu. Dzięki przeniesieniu przetwarzania PHP do dedykowanego menedżera procesów FastCGI, zyskujesz znaczną poprawę w zakresie zużycia pamięci oraz obsługi żądań w porównaniu do starszych metod wykonywania skryptów.
 
-Ten przewodnik skupia się na konfiguracji stabilnego, gotowego do pracy produkcyjnej środowiska na systemie Ubuntu 26.04 LTS. Przeprowadzimy proces instalacji Nginx oraz domyślnej wersji PHP 8.5 (PHP-FPM) dostępnej w systemie, dbając o to, aby poprawnie komunikowały się ze sobą za pośrednictwem gniazd Unix. Taka konfiguracja jest idealna dla programistów hostujących dynamiczne strony na serwerach <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Premium VPS](/pl/premium-vps/), gdzie redukcja opóźnień ma kluczowe znaczenie.
+Ten przewodnik skupia się na konfiguracji stabilnego, gotowego do pracy produkcyjnej środowiska na systemie Ubuntu 26.04 LTS. Przeprowadzimy proces instalacji Nginx oraz domyślnej wersji PHP 8.5 (PHP-FPM) dostępnej w systemie, dbając o to, aby poprawnie komunikowały się ze sobą za pośrednictwem gniazd Unix. Taka konfiguracja jest idealna dla programistów hostujących dynamiczne strony na serwerach <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Premium VPS](/pl/vps/premium/), gdzie redukcja opóźnień ma kluczowe znaczenie.
 
 Stawiamy na czystą i minimalistyczną instalację. Unikamy rozbudowanych pakietów na rzecz oficjalnych repozytoriów, które gwarantują, że aktualizacje bezpieczeństwa są dostępne na wyciągnięcie ręki poprzez polecenie `apt upgrade`. Pod koniec tego poradnika będziesz dysponować funkcjonalnym serwerem WWW, zdolnym do obsługi dynamicznych treści PHP, wraz z niezbędnymi poprawkami konfiguracji pozwalającymi uniknąć typowych wąskich gardeł. Niezależnie od tego, czy migrujesz istniejącą aplikację, czy uruchamiasz nowy projekt, ta konfiguracja stanowi solidny fundament dla Twojej infrastruktury.
 
@@ -52,7 +52,7 @@ Stawiamy na czystą i minimalistyczną instalację. Unikamy rozbudowanych pakiet
 
 Przed rozpoczęciem instalacji należy upewnić się, że serwer spełnia podstawowe wymagania dla stabilnego środowiska produkcyjnego. Zalecamy posiadanie co najmniej 1 GB pamięci RAM oraz przynajmniej jednego dedykowanego rdzenia procesora, aby obsłużyć narzut serwera Nginx oraz procesów roboczych PHP-FPM bez spadku wydajności. Niniejszy przewodnik zakłada, że korzystasz ze świeżej instalacji systemu Ubuntu 26.04 LTS.
 
-Konieczne jest posiadanie dostępu do konta root lub użytkownika z uprawnieniami `sudo` w celu wykonywania poleceń administracyjnych. Jeśli korzystasz z usługi <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Budget VPS](/pl/budzetowy-vps/), upewnij się, że zapora sieciowa jest poprawnie skonfigurowana, aby zezwalać na ruch przychodzący na portach 80 oraz 443. Jeśli zapora nie została jeszcze skonfigurowana, zapoznaj się z naszym przewodnikiem dotyczącym [konfiguracji UFW](/pl/guides/konfiguracja-ufw-ubuntu-debian/), aby zapobiec nieautoryzowanemu dostępowi do portów zarządzania.
+Konieczne jest posiadanie dostępu do konta root lub użytkownika z uprawnieniami `sudo` w celu wykonywania poleceń administracyjnych. Jeśli korzystasz z usługi <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Budget VPS](/pl/vps/budget/), upewnij się, że zapora sieciowa jest poprawnie skonfigurowana, aby zezwalać na ruch przychodzący na portach 80 oraz 443. Jeśli zapora nie została jeszcze skonfigurowana, zapoznaj się z naszym przewodnikiem dotyczącym [konfiguracji UFW](/pl/guides/konfiguracja-ufw-ubuntu-debian/), aby zapobiec nieautoryzowanemu dostępowi do portów zarządzania.
 
 Należy zweryfikować, czy lista pakietów jest aktualna, a system w pełni zaktualizowany, aby uniknąć konfliktów zależności podczas procesu instalacji. Mimo że w kolejnych krokach zainstalujemy określone pakiety, posiadanie czystego i zaktualizowanego środowiska pozwala zapobiec typowym błędom niezgodności bibliotek. Upewnij się, że jesteś zalogowany na serwerze przez SSH oraz masz przygotowaną domenę lub adres IP serwera w celu przetestowania finalnej konfiguracji.
 
@@ -79,7 +79,7 @@ Po zakończeniu instalacji warto sprawdzić, która wersja PHP została zainstal
 php -v
 ```
 
-Przykładowo, jeśli dane wyjściowe wskazują na `PHP 8.5.x`, nazwa Twojej usługi PHP-FPM to `php8.5-fpm`, a plik gniazda to `php8.5-fpm.sock` (w przypadku Ubuntu 24.04 LTS będzie to odpowiednio `PHP 8.3.x` z usługą `php8.3-fpm` i gniazdem `php8.3-fpm.sock`). Zapamiętaj tę wersję — użyjesz jej w konfiguracji Nginx w kolejnym kroku.
+Przykładowo, jeśli dane wyjściowe wskazują na `PHP 8.5.x`, nazwa Twojej usługi PHP-FPM to `php8.5-fpm`, a plik gniazda to `php8.5-fpm.sock` (w przypadku Ubuntu 24.04 LTS będzie to odpowiednio `PHP 8.3.x` z usługą `php8.3-fpm` i gniazdem `php8.3-fpm.sock`). Zapamiętaj tę wersję - użyjesz jej w konfiguracji Nginx w kolejnym kroku.
 
 ## Krok 2: Konfiguracja bloku serwera Nginx
 
@@ -191,6 +191,6 @@ sudo systemctl start nginx
 sudo systemctl start php8.x-fpm
 ```
 
-Dla osób zarządzających krytycznymi obciążeniami, kolejnym logicznym krokiem jest monitorowanie. Obserwuj wykorzystanie zasobów systemowych za pośrednictwem panelu <span class="text-white">Voxi</span><span class="text-amber-300">Host</span>, szczególnie jeśli skalujesz swoje środowiska [Premium VPS](/pl/premium-vps/) lub [Budget VPS](/pl/budzetowy-vps/). Regularne sprawdzanie logów oraz aktualizowanie pakietów zapewni, że Twój serwer WWW pozostanie szybki i bezpieczny przed nowymi zagrożeniami.
+Dla osób zarządzających krytycznymi obciążeniami, kolejnym logicznym krokiem jest monitorowanie. Obserwuj wykorzystanie zasobów systemowych za pośrednictwem panelu <span class="text-white">Voxi</span><span class="text-amber-300">Host</span>, szczególnie jeśli skalujesz swoje środowiska [Premium VPS](/pl/vps/premium/) lub [Budget VPS](/pl/vps/budget/). Regularne sprawdzanie logów oraz aktualizowanie pakietów zapewni, że Twój serwer WWW pozostanie szybki i bezpieczny przed nowymi zagrożeniami.
 
 Jeśli zdecydujesz się na dalszą rozbudowę infrastruktury, rozważ zapoznanie się z przewodnikiem [Jak skonfigurować certyfikat SSL z Let's Encrypt i Certbot na Ubuntu i Debianie: Kompletny poradnik](/pl/guides/certyfikat-ssl-letsencrypt-ubuntu/), aby szyfrować ruch i poprawić pozycjonowanie w wyszukiwarkach.

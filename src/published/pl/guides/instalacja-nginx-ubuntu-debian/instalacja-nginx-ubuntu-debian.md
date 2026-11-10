@@ -277,4 +277,4 @@ sudo systemctl reload nginx
 
 Nginx powinien teraz serwować twoją nazwę domeny. Zakładając że zaktualizowałeś rekordy DNS-A swojej domeny aby wskazywały na adres IP twojego VPS, nawigacja do `http://your_domain.com` pokaże stronę sukcesu którą właśnie stworzyłeś.
 
-Jeśli szukasz wysoce niezawodnego i błyskawicznie szybkiego środowiska do hostowania swojego nowego serwera Nginx, uruchom jedną z naszych instancji [Premium VPS](/pl/premium-vps/) i wdróż swoje projekty już dziś.
+Jeśli szukasz wysoce niezawodnego i błyskawicznie szybkiego środowiska do hostowania swojego nowego serwera Nginx, uruchom jedną z naszych instancji [Premium VPS](/pl/vps/premium/) i wdróż swoje projekty już dziś.

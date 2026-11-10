@@ -134,4 +134,4 @@ Nginx Proxy Manager działa teraz na Twoim VPS i jest w pełni dostępny przez p
 
 Połącz NPM z innymi usługami działającymi na tym samym VPS-ie, takimi jak WordPress czy Nextcloud, aby zbudować kompletny, produkcyjny stos self-hosted.
 
-Jeśli szukasz niezawodnego serwera pod taki stos, sprawdź nasze [plany Premium VPS](/pl/premium-vps/) lub [Budget VPS](/pl/budget-vps/), które oferują szybkie dyski NVMe SSD i port sieciowy o dużej przepustowości.
+Jeśli szukasz niezawodnego serwera pod taki stos, sprawdź nasze [plany Premium VPS](/pl/vps/premium/) lub [Budget VPS](/pl/vps/budget/), które oferują szybkie dyski NVMe SSD i port sieciowy o dużej przepustowości.

@@ -1,6 +1,6 @@
 ---
 image: /assets/images/blog/pl/serwer-minecraft-1-17-centos-rhel/og-image.png
-title: Jak postawić serwer Minecraft Vanilla 1.17.1 (Java 16) na AlmaLinux, CentOS, Rocky Linux i Fedorze
+title: Serwer Minecraft 1.17.1 na AlmaLinux, CentOS i Rocky
 description: Instrukcja instalacji serwera Minecraft 1.17.1 na AlmaLinux, CentOS lub Rocky Linux z użyciem środowiska Java 16/17.
 date: '2026-04-23'
 updated: '2026-06-02'
@@ -77,7 +77,7 @@ Dokładny link do pobrania swojej wersji znajdziesz w naszym [Archiwum linków d
 
 ## Wymagania wstępne
 
-* VPS z systemem **AlmaLinux, Rocky Linux lub CentOS** (dostępny w ramach [Premium VPS](/pl/premium-vps/)).
+* VPS z systemem **AlmaLinux, Rocky Linux lub CentOS** (dostępny w ramach [Premium VPS](/pl/vps/premium/)).
 * Dostęp root lub sudo przez SSH (do instalacji Javy).
 * **Ograniczony użytkownik inny niż root** do bezpiecznego uruchamiania serwera.
 
@@ -243,4 +243,4 @@ Teraz, gdy serwer działa, pamiętaj o:
 3. **Transfer plików**: Chcesz wgrać istniejący świat? Skorzystaj z SFTP zgodnie z opisem w naszym [Tutorialu FileZilla](/pl/guides/przesylanie-plikow-vps-sftp-filezilla/).
 4. **Utwardzenie i monitoring**: Zwiększ bezpieczeństwo VPS, [zabezpieczając SSH](/pl/guides/jak-zabezpieczyc-ssh-centos-rhel/) i [konfigurując Fail2ban](/pl/guides/konfiguracja-fail2ban-centos-rhel/). Możesz też [monitorować zasoby systemowe](/pl/guides/monitorowanie-vps-htop-df-free/) za pomocą htop.
 
-Szukasz stabilnego domu dla swojego świata? Sprawdź **[Premium VPS](/pl/premium-vps/)**.
+Szukasz stabilnego domu dla swojego świata? Sprawdź **[Premium VPS](/pl/vps/premium/)**.

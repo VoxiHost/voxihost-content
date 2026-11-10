@@ -16,9 +16,9 @@ tags:
   - hourly billing
 faq:
   - question: "Jak naliczane są opłaty w hostingu godzinowym VPS?"
-    answer: "Nasz system rozliczeniowy nalicza opłaty za każdą rozpoczętą godzinę działania serwera. Każda konfiguracja posiada cenę bazową (od €0.01/h), a dodatkowe zasoby (CPU, RAM, dysk) doliczają stałą stawkę godzinową."
+    answer: "Nasz system rozliczeniowy nalicza opłaty za każdą rozpoczętą godzinę działania serwera. Każda konfiguracja posiada cenę bazową (od 0,03 PLN/h), a dodatkowe zasoby (CPU, RAM, dysk) doliczają stałą stawkę godzinową."
   - question: "Czy hosting godzinowy jest droższy od planów miesięcznych?"
-    answer: "W przeliczeniu na cały miesiąc ciągłego działania – tak. Stawki godzinowe są średnio o 1.46x wyższe dla planów Budget i 1.77x wyższe dla planów Premium. Dla projektów działających 24/7 pakiety miesięczne są najbardziej opłacalne."
+    answer: "W przeliczeniu na cały miesiąc ciągłego działania - tak. Stawki godzinowe są średnio o 1.46x wyższe dla planów Budget i 1.77x wyższe dla planów Premium. Dla projektów działających 24/7 pakiety miesięczne są najbardziej opłacalne."
   - question: "Jak mogę przestać płacić za serwer godzinowy?"
     answer: "Aby natychmiast zatrzymać naliczanie opłat, należy użyć przycisku <b>Destroy</b> (Usuń) w panelu klienta. Usunie to instancję VPS i zwolni zasoby, całkowicie wstrzymując dalsze rozliczanie."
   - question: "Czy mogę zmienić rozliczenie godzinowe na plan miesięczny?"
@@ -45,15 +45,15 @@ System Hourly to nie tylko inny sposób płatności - to całkowita zmiana podej
 
 ### 1. Płać tylko za to, co zużyjesz
 Koniec z płaceniem za niewykorzystany czas. Jeśli Twoje zapotrzebowanie na moc obliczeniową trwa tylko kilkanaście godzin w tygodniu, model Hourly pozwoli Ci zaoszczędzić realne pieniądze. Ceny zaczynają się już od:
-*   **0,03 PLN / godz.** w modelu [Budget VPS](/pl/budget-vps/)
-*   **0,07 PLN / godz.** w modelu [Premium VPS](/pl/premium-vps/)
+*   **0,03 PLN / godz.** w modelu [Budget VPS](/pl/vps/budget/)
+*   **0,07 PLN / godz.** w modelu [Premium VPS](/pl/vps/premium/)
 
 ### 2. Pełna swoboda wyboru
-Nie idziemy na kompromisy. Model godzinowy jest dostępny zarówno dla naszych modeli bazowych [Premium VPS](/pl/premium-vps/) oraz [Budget VPS](/pl/budget-vps/). 
+Nie idziemy na kompromisy. Model godzinowy jest dostępny zarówno dla naszych modeli bazowych [Premium VPS](/pl/vps/premium/) oraz [Budget VPS](/pl/vps/budget/). 
 
 Dla pełnej transparentności, oto jak wyliczamy stawkę godzinową na podstawie wybranych modeli bazowych:
 
-| Element | [Budget VPS](/pl/budget-vps/) | [Premium VPS](/pl/premium-vps/) |
+| Element | [Budget VPS](/pl/vps/budget/) | [Premium VPS](/pl/vps/premium/) |
 | :--- | :--- | :--- |
 | **Baza (minimum)** | **0,03 PLN/h** (2 vCPU, 2 GB RAM, 10 GB SSD) | **0,07 PLN/h** (1 vCPU, 2 GB RAM, 10 GB SSD) |
 | **Rozbudowa CPU** | +0,01 PLN/h (za każde +2 vCore) | +0,04 PLN/h (za każde +1 vCore) |
@@ -64,7 +64,7 @@ Dla pełnej transparentności, oto jak wyliczamy stawkę godzinową na podstawie
 
 System jest bardzo prosty i przejrzysty. Każdy serwer posiada swoją **Konfigurację Bazową** (punkt startowy), która ma już przypisaną cenę (np. 0,03 PLN/h). 
 
-Jeśli potrzebujesz więcej zasobów, po prostu zwiększasz dany parametr – każde dodatkowe 2 GB pamięci RAM to po prostu +0,01 PLN/h doliczane do Twojej bazy. Sam decydujesz, jak bardzo chcesz "podkręcić" swój serwer, a cena aktualizuje się dynamicznie przy każdym przesunięciu suwaka.
+Jeśli potrzebujesz więcej zasobów, po prostu zwiększasz dany parametr - każde dodatkowe 2 GB pamięci RAM to po prostu +0,01 PLN/h doliczane do Twojej bazy. Sam decydujesz, jak bardzo chcesz "podkręcić" swój serwer, a cena aktualizuje się dynamicznie przy każdym przesunięciu suwaka.
 
 > Ostateczna cena godzinowa jest sumą bazy oraz opłat za dodatkowo zwiększone parametry. Wynik końcowy jest zawsze zaokrąglany do **2 miejsc po przecinku** (np. 0,07 PLN).
 

@@ -273,4 +273,4 @@ sudo systemctl reload nginx
 
 Nginx should now be serving your domain name. Assuming you have updated your domain's DNS A-records to point to your VPS IP address, navigating to `http://your_domain.com` will show the success page you just created.
 
-If you are looking for a highly reliable and blazing-fast environment to host your new Nginx server, spin up one of our [Premium VPS](/premium-vps/) instances and deploy your projects today.
+If you are looking for a highly reliable and blazing-fast environment to host your new Nginx server, spin up one of our [Premium VPS](/vps/premium/) instances and deploy your projects today.

@@ -47,7 +47,7 @@ Wierzymy w wolność wyboru środowiska, które najlepiej pasuje do Twojego prze
 
 {% image "/assets/images/blog/pl/devblog-marzec-2026/new-distributions.png", "Wybór nowych dystrybucji Linux dostępnych do instalacji jednym kliknięciem na VoxiHost VPS", "(max-width: 768px) 100vw, 800px" %}
 
-Wszystkie te dystrybucje są już dostępne jako **instalacja jednym kliknięciem** we wszystkich naszych planach [Premium](/pl/premium-vps/) oraz [Budget](/pl/budget-vps/) VPS.
+Wszystkie te dystrybucje są już dostępne jako **instalacja jednym kliknięciem** we wszystkich naszych planach [Premium](/pl/vps/premium/) oraz [Budget](/pl/vps/budget/) VPS.
 
 ## 3. Szybsze logowanie dzięki Google Auth
 

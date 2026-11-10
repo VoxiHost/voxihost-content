@@ -236,4 +236,4 @@ sudo find /etc -name "*.rpmnew" -o -name "*.rpmsave" 2>/dev/null
 
 Check those after any significant update. Merge what matters, delete what doesn't.
 
-Fedora is a solid server operating system if you're staying current. The six-month release cycle sounds fast, but the system-upgrade path is smooth and rarely causes surprises. If you want a clean VPS to test a Fedora upgrade without risking your production machine, our [Budget VPS](/budget-vps/) plans are a cheap way to run through the whole process.
+Fedora is a solid server operating system if you're staying current. The six-month release cycle sounds fast, but the system-upgrade path is smooth and rarely causes surprises. If you want a clean VPS to test a Fedora upgrade without risking your production machine, our [Budget VPS](/vps/budget/) plans are a cheap way to run through the whole process.

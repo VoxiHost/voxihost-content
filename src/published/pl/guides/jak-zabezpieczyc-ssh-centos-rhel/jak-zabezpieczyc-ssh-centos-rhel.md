@@ -262,4 +262,4 @@ sudo ausearch -m avc -ts recent | grep sshd
 
 To powie ci dokładnie co SELinux zablokowało, co czyni naprawianie tego znacznie prostszym niż zgadywanie.
 
-Jeśli chcesz czysty VPS oparty na RHEL aby poćwiczyć to bez ryzyka, nasze plany [Budget VPS](/pl/budget-vps/) są wystarczająco tanie aby uruchomić skrzynkę testową, utwardzić ją i zacząć od nowa jeśli cokolwiek się zepsuje.
+Jeśli chcesz czysty VPS oparty na RHEL aby poćwiczyć to bez ryzyka, nasze plany [Budget VPS](/pl/vps/budget/) są wystarczająco tanie aby uruchomić skrzynkę testową, utwardzić ją i zacząć od nowa jeśli cokolwiek się zepsuje.

@@ -287,4 +287,4 @@ sudo systemctl reload apache2
 
 Apache powinien teraz aktywnie serwować twoją nazwę domeny. Dopóki twoje rekordy DNS dla `your_domain.com` wskazują na adres IP twojego VPS, możesz wpisać ją w przeglądarkę aby zobaczyć swój ciąg sukcesu.
 
-Dla niezawodnego środowiska wspierającego szybkie prototypowanie projektów z warstwami WWW Apache, sprawdź naszą wysokowydajną linię przystępnych środowisk [Budget VPS](/pl/budget-vps/) już dziś.
+Dla niezawodnego środowiska wspierającego szybkie prototypowanie projektów z warstwami WWW Apache, sprawdź naszą wysokowydajną linię przystępnych środowisk [Budget VPS](/pl/vps/budget/) już dziś.

@@ -90,7 +90,7 @@ Pomiarów dokonano za pomocą narzędzia `iperf3` (dla przepustowości) oraz kla
 Różnica w sposobie nawiązywania połączenia jest kolosalna:
 *   **WireGuard:** Łączy się w czasie poniżej **100 ms** (praktycznie natychmiast).
 *   **OpenVPN (Zimny start / Cold Start):** Wymaga od **5 do 10 sekund** na pełną negocjację certyfikatów SSL/TLS i wymianę kluczy.
-*   **OpenVPN (Wznawianie / Reconnect z session resumption):** Dzięki mechanizmowi wznawiania sesji i szyfrowaniu `tls-crypt`, ponowne nawiązanie połączenia przy zmianie sieci zajmuje zazwyczaj **około 1.2 sekundy** – to duża poprawa, ale wciąż zauważalna w porównaniu do błyskawicznego WireGuarda.
+*   **OpenVPN (Wznawianie / Reconnect z session resumption):** Dzięki mechanizmowi wznawiania sesji i szyfrowaniu `tls-crypt`, ponowne nawiązanie połączenia przy zmianie sieci zajmuje zazwyczaj **około 1.2 sekundy** - to duża poprawa, ale wciąż zauważalna w porównaniu do błyskawicznego WireGuarda.
 
 ### Zużycie baterii na telefonach
 

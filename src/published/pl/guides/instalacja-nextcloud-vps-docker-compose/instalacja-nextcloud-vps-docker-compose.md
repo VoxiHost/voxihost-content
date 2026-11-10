@@ -155,4 +155,4 @@ Gratulacje! Twoja prywatna chmura Nextcloud działa teraz bezpiecznie w kontener
 
 W następnym kroku zalecamy umieszczenie Nextcloud za własną domeną z bezpłatnym certyfikatem HTTPS, używając [Nginx Proxy Manager](/pl/guides/konfiguracja-nginx-proxy-manager-vps/), dzięki czemu Twoja chmura będzie dostępna z każdego miejsca po szyfrowanym adresie.
 
-Jeśli potrzebujesz niezawodnego serwera do hostowania swojej prywatnej chmury, sprawdź nasze [plany Premium VPS](/pl/premium-vps/) lub [Budget VPS](/pl/budget-vps/), które oferują szybkie dyski NVMe SSD i wysoką przepustowość sieci.
+Jeśli potrzebujesz niezawodnego serwera do hostowania swojej prywatnej chmury, sprawdź nasze [plany Premium VPS](/pl/vps/premium/) lub [Budget VPS](/pl/vps/budget/), które oferują szybkie dyski NVMe SSD i wysoką przepustowość sieci.

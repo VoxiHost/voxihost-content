@@ -248,4 +248,4 @@ sudo fail2ban-client status
 
 The last command shows all active jails and their ban counts.
 
-If you want a clean VPS to test fail2ban on before rolling it out to production, our [Budget VPS](/budget-vps/) plans are cheap enough to run through the whole setup without risk.
+If you want a clean VPS to test fail2ban on before rolling it out to production, our [Budget VPS](/vps/budget/) plans are cheap enough to run through the whole setup without risk.

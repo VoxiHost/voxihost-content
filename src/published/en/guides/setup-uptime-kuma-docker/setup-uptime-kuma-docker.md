@@ -48,7 +48,7 @@ Have you ever woken up in the morning only to discover that your Minecraft serve
 
 **Uptime Kuma** is a powerful open-source tool that can monitor websites, game servers, TCP ports, and DNS services. In this quick tutorial, we will show you how to install it on your own server using Docker in just 15 minutes!
 
-> **Tip:** Uptime Kuma does not consume many resources. The cheapest plan from our [Budget VPS](/budget-vps/) lineup (e.g., based on Ubuntu 22.04) will easily be enough for this task.
+> **Tip:** Uptime Kuma does not consume many resources. The cheapest plan from our [Budget VPS](/vps/budget/) lineup (e.g., based on Ubuntu 22.04) will easily be enough for this task.
 
 ---
 
@@ -165,4 +165,4 @@ Now, when creating or editing any monitor (Step 3), make sure you have selected 
 
 Setting up your own monitoring system is just a few minutes of work. Thanks to Uptime Kuma, you maintain full privacy of your logs and avoid paying subscription fees for premium services (like short, 1-minute check intervals, which can be very expensive in SaaS solutions).
 
-Uptime Kuma installed on a stable <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Budget VPS](/budget-vps/) is a guarantee that you will know about the failure of your main projects before your clients or players notice it!
+Uptime Kuma installed on a stable <span class="text-white">Voxi</span><span class="text-amber-300">Host</span> [Budget VPS](/vps/budget/) is a guarantee that you will know about the failure of your main projects before your clients or players notice it!

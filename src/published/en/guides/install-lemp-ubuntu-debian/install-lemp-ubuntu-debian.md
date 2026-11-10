@@ -217,4 +217,4 @@ You should see a massive, detailed purple and gray table outlining your server's
 sudo rm /var/www/html/info.php
 ```
 
-Your server is now a fully powered production machine. Ready to host millions of hits? Deploy an intensely fast [Premium VPS](/premium-vps/), install your LEMP stack, get a [free Let's Encrypt SSL](/guides/ssl-letsencrypt-certbot-ubuntu/), and launch your database-driven application directly to the world.
+Your server is now a fully powered production machine. Ready to host millions of hits? Deploy an intensely fast [Premium VPS](/vps/premium/), install your LEMP stack, get a [free Let's Encrypt SSL](/guides/ssl-letsencrypt-certbot-ubuntu/), and launch your database-driven application directly to the world.

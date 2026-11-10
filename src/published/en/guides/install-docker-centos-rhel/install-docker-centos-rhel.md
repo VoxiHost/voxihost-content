@@ -181,4 +181,4 @@ docker run hello-world
 
 If it works, congratulations! Your **VPS** is fully equipped to deploy the infinite number of pre-packaged container apps available on Docker Hub natively and securely.
 
-For a reliable environment supporting rapid project prototyping with Docker, checkout our high-performance line of affordable [Budget VPS](/budget-vps/) environments today.
+For a reliable environment supporting rapid project prototyping with Docker, checkout our high-performance line of affordable [Budget VPS](/vps/budget/) environments today.

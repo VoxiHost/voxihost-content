@@ -1,6 +1,6 @@
 ---
 image: /assets/images/blog/en/minecraft-1-17-server-ubuntu-debian/og-image.png
-title: How to Setup a Minecraft Vanilla 1.17.1 Server (Java 16) on Ubuntu/Debian
+title: Minecraft 1.17.1 Server on Ubuntu & Debian
 description: Instructions for installing a Minecraft 1.17.1 server on Ubuntu/Debian using the specific Java 16 runtime.
 date: '2026-04-23'
 updated: '2026-06-02'
@@ -75,7 +75,7 @@ To find the exact link for your version, visit our [Minecraft Vanilla Server Dow
 
 ## Prerequisites
 
-* A VPS running **Ubuntu or Debian** (Available on [Premium VPS](/premium-vps/)).
+* A VPS running **Ubuntu or Debian** (Available on [Premium VPS](/vps/premium/)).
 * Root or sudo access via SSH (for installing Java).
 * **A restricted non-root user** to run the server software safely.
 
@@ -249,4 +249,4 @@ Now that your server is running, don't forget to:
 3. **Transfer Files**: Want to upload an existing world? Use SFTP as explained in our [FileZilla Tutorial](/guides/transfer-files-vps-sftp-filezilla/).
 4. **Hardening & Monitoring**: Protect your VPS further by [securing SSH](/guides/secure-ssh-ubuntu-debian/) and [setting up Fail2ban](/guides/setup-fail2ban-ubuntu-debian/). You can also [monitor your system resources](/guides/monitor-vps-htop-df-free/) using htop.
 
-Looking for a stable home for your world? Check out **[Premium VPS](/premium-vps/)**.
+Looking for a stable home for your world? Check out **[Premium VPS](/vps/premium/)**.
